@@ -155,6 +155,7 @@ $meta_source = <<<EOD
   <groupId>{$group_id}</groupId>
   <artifactId>{$artifact_id}</artifactId>
   <versioning>
+    <latest>{$version}</latest>
     <release>{$release}</release>
     <versions>
       {$versions}
@@ -173,7 +174,7 @@ EOD;
 	echo "created. <a href=\"./{$path}/\">[move]</a>";
 	if (AUTO_PUSH) {
 		exec('git add *');
-		exec('git commit -m "auto push (update)"');
+		exec('git commit -m "auto push (' . $artifact_id . '-' . $version . ')"');
 		exec('git push');
 		echo "pushed.";
 	}
