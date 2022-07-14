@@ -1,0 +1,22 @@
+{
+    "group_id": "draylar",
+    "artifact_id": "magna",
+    "version": "1.7.2-rc2",
+    "files": [
+        "magna-1.7.2-rc2-sources.jar",
+        "magna-1.7.2-rc2-sources.jar.md5",
+        "magna-1.7.2-rc2-sources.jar.sha1",
+        "magna-1.7.2-rc2-sources.jar.sha256",
+        "magna-1.7.2-rc2-sources.jar.sha512",
+        "magna-1.7.2-rc2.jar",
+        "magna-1.7.2-rc2.jar.md5",
+        "magna-1.7.2-rc2.jar.sha1",
+        "magna-1.7.2-rc2.jar.sha256",
+        "magna-1.7.2-rc2.jar.sha512",
+        "magna-1.7.2-rc2.pom",
+        "magna-1.7.2-rc2.pom.md5",
+        "magna-1.7.2-rc2.pom.sha1",
+        "magna-1.7.2-rc2.pom.sha256",
+        "magna-1.7.2-rc2.pom.sha512"
+    ]
+}
