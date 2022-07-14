@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "mcpitanlib",
+    "version": "1.4.4+fabric-1.19",
+    "files": [
+        "mcpitanlib-1.4.4+fabric-1.19-sources.jar",
+        "mcpitanlib-1.4.4+fabric-1.19-sources.jar.md5",
+        "mcpitanlib-1.4.4+fabric-1.19-sources.jar.sha1",
+        "mcpitanlib-1.4.4+fabric-1.19-sources.jar.sha256",
+        "mcpitanlib-1.4.4+fabric-1.19-sources.jar.sha512",
+        "mcpitanlib-1.4.4+fabric-1.19.jar",
+        "mcpitanlib-1.4.4+fabric-1.19.jar.md5",
+        "mcpitanlib-1.4.4+fabric-1.19.jar.sha1",
+        "mcpitanlib-1.4.4+fabric-1.19.jar.sha256",
+        "mcpitanlib-1.4.4+fabric-1.19.jar.sha512",
+        "mcpitanlib-1.4.4+fabric-1.19.pom",
+        "mcpitanlib-1.4.4+fabric-1.19.pom.md5",
+        "mcpitanlib-1.4.4+fabric-1.19.pom.sha1",
+        "mcpitanlib-1.4.4+fabric-1.19.pom.sha256",
+        "mcpitanlib-1.4.4+fabric-1.19.pom.sha512"
+    ]
+}

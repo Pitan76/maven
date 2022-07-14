@@ -1,6 +1,11 @@
 <?php
+// License: MIT
+// Author: Pitan
+
 define('DEFAULT_GROUP_ID', "ml.pkom");
 define('DEFAULT_VERSION', "1.0.0");
+define('GENERATE_INDEX_HTML', true);
+define('AUTO_PUSH', true);
 
 $DEFAULT_GROUP_ID = DEFAULT_GROUP_ID;
 $DEFAULT_VERSION = DEFAULT_VERSION;
@@ -12,6 +17,51 @@ if (!function_exists('str_ends_with')) {
 	}
 }
 
+function gen_dirlist_html($dir = ".") {
+	global $group_path, $artifact_id, $version;
+	
+	$links = '';
+	foreach(glob($dir . '/*') as $key => $value) {
+		$filename = basename($value);
+		if ($filename === "index.html" || $filename === "maven.php") {
+			continue;
+		}
+		
+		$displayname = $filename;
+		$len = strlen($filename);
+		$namemax = 50;
+		$c = ($namemax + 1) - $len;
+		if ($len > $namemax) {
+			$displayname = substr($filename, 0, $namemax - 3) . "..&gt;";
+			$c = 1;
+		}
+		if (is_dir($value)) {
+			$links .= '<a href="./' . $filename . '/">' . $displayname . '/</a>' . str_repeat(" ", $c - 1) . date("d-M-Y H:i", filemtime($value)) . "                   -\n";
+			if (strpos($group_path . "/" . $artifact_id . "/" . $version, $filename) !== false)
+				gen_dirlist_html($dir . "/" . $filename);
+		} else {
+			$links .= '<a href="./' . $filename . '">' . $displayname . '</a>' . str_repeat(" ", $c) . date("d-M-Y H:i", filemtime($value)) . str_pad(filesize($value), 20, " ", STR_PAD_LEFT) . "\n";
+		}
+	}
+	$links = substr($links, 0, -1);
+	$displaydir = substr($dir, 1) . '/';
+$html = <<<EOD
+<html>
+	<head>
+		<title>Index of {$displaydir}</title>
+	</head>
+	<body>
+		<h1>Index of {$displaydir}</h1>
+		<hr>
+		<pre><a href="../">../</a>
+{$links}</pre>
+		<hr>
+	</body>
+</html>
+EOD;
+	file_put_contents($dir . '/index.html', $html);
+}
+
 function gen_hash_file($filename) {
 	file_put_contents($filename . '.md5', hash_file('md5', $filename));
 	file_put_contents($filename . '.sha1', hash_file('sha1', $filename));
@@ -20,10 +70,12 @@ function gen_hash_file($filename) {
 }
 
 if (isset($_POST['group_id']) && isset($_POST['artifact_id']) && isset($_POST['version']) && isset($_FILES['upload'])) {
+	global $group_path, $artifact_id, $version;
 	$group_id = $_POST['group_id'];
 	$artifact_id = $_POST['artifact_id'];
 	$version = $_POST['version'];
-	$path = './' . str_replace('.', '/', $group_id) . '/' . $artifact_id . '/' . $version;
+	$group_path = str_replace('.', '/', $group_id);
+	$path = './' . $group_path . '/' . $artifact_id . '/' . $version;
 	$basename = $artifact_id . '-' . $version;
 	$files = $_FILES['upload'];
 	
@@ -89,10 +141,11 @@ EOD;
 	$time = date("YmdHis");
 	$files_arr = array_values(glob(dirname($path) . '/*'));
 	usort($files_arr, "strnatcmp");
-	$versions = '';
+	$versions = $release = '';
 	foreach($files_arr as $value) {
 		if (is_dir($value)) {
 			$versions .= '<version>' . basename($value) . '</version>' . "\n";
+			$release = basename($value);
 		}
 	}
 	$versions = substr($versions, 0, -1);
@@ -102,7 +155,7 @@ $meta_source = <<<EOD
   <groupId>{$group_id}</groupId>
   <artifactId>{$artifact_id}</artifactId>
   <versioning>
-    <release>{$version}</release>
+    <release>{$release}</release>
     <versions>
       {$versions}
     </versions>
@@ -113,7 +166,17 @@ EOD;
 	$metafile = dirname($path) . '/maven-metadata.xml';
 	file_put_contents($metafile, $meta_source);
 	gen_hash_file($metafile);
+	
+	if (GENERATE_INDEX_HTML) {
+		gen_dirlist_html();
+	}
 	echo "created. <a href=\"./{$path}/\">[move]</a>";
+	if (AUTO_PUSH) {
+		exec('git add *');
+		exec('git commit -m "auto push (update)"');
+		exec('git push');
+		echo "pushed.";
+	}
 	exit;
 }
 ?>
