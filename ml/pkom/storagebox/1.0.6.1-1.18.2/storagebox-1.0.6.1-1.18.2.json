@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "storagebox",
+    "version": "1.0.6.1-1.18.2",
+    "files": [
+        "storagebox-1.0.6.1-1.18.2-sources.jar",
+        "storagebox-1.0.6.1-1.18.2-sources.jar.md5",
+        "storagebox-1.0.6.1-1.18.2-sources.jar.sha1",
+        "storagebox-1.0.6.1-1.18.2-sources.jar.sha256",
+        "storagebox-1.0.6.1-1.18.2-sources.jar.sha512",
+        "storagebox-1.0.6.1-1.18.2.jar",
+        "storagebox-1.0.6.1-1.18.2.jar.md5",
+        "storagebox-1.0.6.1-1.18.2.jar.sha1",
+        "storagebox-1.0.6.1-1.18.2.jar.sha256",
+        "storagebox-1.0.6.1-1.18.2.jar.sha512",
+        "storagebox-1.0.6.1-1.18.2.pom",
+        "storagebox-1.0.6.1-1.18.2.pom.md5",
+        "storagebox-1.0.6.1-1.18.2.pom.sha1",
+        "storagebox-1.0.6.1-1.18.2.pom.sha256",
+        "storagebox-1.0.6.1-1.18.2.pom.sha512"
+    ]
+}
