@@ -1,0 +1,22 @@
+{
+    "group_id": "net.devtech",
+    "artifact_id": "classicombat",
+    "version": "1.0.4-1.18.2",
+    "files": [
+        "classicombat-1.0.4-1.18.2-sources.jar",
+        "classicombat-1.0.4-1.18.2-sources.jar.md5",
+        "classicombat-1.0.4-1.18.2-sources.jar.sha1",
+        "classicombat-1.0.4-1.18.2-sources.jar.sha256",
+        "classicombat-1.0.4-1.18.2-sources.jar.sha512",
+        "classicombat-1.0.4-1.18.2.jar",
+        "classicombat-1.0.4-1.18.2.jar.md5",
+        "classicombat-1.0.4-1.18.2.jar.sha1",
+        "classicombat-1.0.4-1.18.2.jar.sha256",
+        "classicombat-1.0.4-1.18.2.jar.sha512",
+        "classicombat-1.0.4-1.18.2.pom",
+        "classicombat-1.0.4-1.18.2.pom.md5",
+        "classicombat-1.0.4-1.18.2.pom.sha1",
+        "classicombat-1.0.4-1.18.2.pom.sha256",
+        "classicombat-1.0.4-1.18.2.pom.sha512"
+    ]
+}
