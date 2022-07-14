@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.github.Draylar</groupId>
+  <groupId>com.github.PTOM76</groupId>
   <artifactId>magna</artifactId>
   <version>1.7.2-rc2-1.19</version>
+  <name>PTOM76/magna</name>
+  <description>A library for adding tools that break multiple blocks at once. Highly customizable easy to use.</description>
+  <url>https://github.com/PTOM76/magna</url>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://api.github.com/licenses/mit</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Draylar</id>
+      <name>Draylar</name>
+      <email></email>
+    </developer>
+    <developer>
+      <id>PTOM76</id>
+      <name>Pitan (かおさん)</name>
+      <email></email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/PTOM76/magna.git</connection>
+    <developerConnection>scm:git://github.com/PTOM76/magna.git</developerConnection>
+    <url>git://github.com/PTOM76/magna.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.14.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api</artifactId>
+      <version>0.57.0+1.19</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.Draylar.omega-config</groupId>
+      <artifactId>omega-config-base</artifactId>
+      <version>1.0.8-1.17</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jamieswhiteshirt</groupId>
+      <artifactId>reach-entity-attributes</artifactId>
+      <version>2.3.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
 </project>
