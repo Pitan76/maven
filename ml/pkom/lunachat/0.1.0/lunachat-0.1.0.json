@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "lunachat",
+    "version": "0.1.0",
+    "files": [
+        "lunachat-0.1.0-sources.jar",
+        "lunachat-0.1.0-sources.jar.md5",
+        "lunachat-0.1.0-sources.jar.sha1",
+        "lunachat-0.1.0-sources.jar.sha256",
+        "lunachat-0.1.0-sources.jar.sha512",
+        "lunachat-0.1.0.jar",
+        "lunachat-0.1.0.jar.md5",
+        "lunachat-0.1.0.jar.sha1",
+        "lunachat-0.1.0.jar.sha256",
+        "lunachat-0.1.0.jar.sha512",
+        "lunachat-0.1.0.pom",
+        "lunachat-0.1.0.pom.md5",
+        "lunachat-0.1.0.pom.sha1",
+        "lunachat-0.1.0.pom.sha256",
+        "lunachat-0.1.0.pom.sha512"
+    ]
+}
