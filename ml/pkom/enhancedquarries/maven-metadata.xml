@@ -5,8 +5,9 @@
   <versioning>
     <release>1.19-1.2.3-alpha</release>
     <versions>
-      <version>1.19-1.2.3-alpha</version>
+      <version>1.18.2-1.2.1</version>
+<version>1.19-1.2.3-alpha</version>
     </versions>
-    <lastUpdated>20220714160735</lastUpdated>
+    <lastUpdated>20220714160804</lastUpdated>
   </versioning>
 </metadata>
