@@ -5,7 +5,7 @@
   <groupId>com.github.Draylar</groupId>
   <artifactId>magna</artifactId>
   <version>1.7.2-rc2-1.19</version>
-  <name>PTOM76/magna</name>
+  <name>Draylar/magna</name>
   <description>A library for adding tools that break multiple blocks at once. Highly customizable easy to use.</description>
   <url>https://github.com/PTOM76/magna</url>
   <inceptionYear>2022</inceptionYear>
