@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "solomonsrod",
+    "version": "1.0.3-1.19-forge",
+    "files": [
+        "solomonsrod-1.0.3-1.19-forge-sources.jar",
+        "solomonsrod-1.0.3-1.19-forge-sources.jar.md5",
+        "solomonsrod-1.0.3-1.19-forge-sources.jar.sha1",
+        "solomonsrod-1.0.3-1.19-forge-sources.jar.sha256",
+        "solomonsrod-1.0.3-1.19-forge-sources.jar.sha512",
+        "solomonsrod-1.0.3-1.19-forge.jar",
+        "solomonsrod-1.0.3-1.19-forge.jar.md5",
+        "solomonsrod-1.0.3-1.19-forge.jar.sha1",
+        "solomonsrod-1.0.3-1.19-forge.jar.sha256",
+        "solomonsrod-1.0.3-1.19-forge.jar.sha512",
+        "solomonsrod-1.0.3-1.19-forge.pom",
+        "solomonsrod-1.0.3-1.19-forge.pom.md5",
+        "solomonsrod-1.0.3-1.19-forge.pom.sha1",
+        "solomonsrod-1.0.3-1.19-forge.pom.sha256",
+        "solomonsrod-1.0.3-1.19-forge.pom.sha512"
+    ]
+}

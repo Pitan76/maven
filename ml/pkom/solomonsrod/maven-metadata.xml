@@ -3,11 +3,12 @@
   <groupId>ml.pkom</groupId>
   <artifactId>solomonsrod</artifactId>
   <versioning>
-    <release>1.0.3-1.19-fabric</release>
+    <release>1.0.3-1.19-forge</release>
     <versions>
       <version>1.0.3-1.18.2-fabric</version>
 <version>1.0.3-1.19-fabric</version>
+<version>1.0.3-1.19-forge</version>
     </versions>
-    <lastUpdated>20220714160247</lastUpdated>
+    <lastUpdated>20220714160322</lastUpdated>
   </versioning>
 </metadata>
