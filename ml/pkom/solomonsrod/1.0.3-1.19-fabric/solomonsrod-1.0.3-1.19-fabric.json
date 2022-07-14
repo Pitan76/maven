@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "solomonsrod",
+    "version": "1.0.3-1.19-fabric",
+    "files": [
+        "solomonsrod-1.0.3-1.19-fabric-sources.jar",
+        "solomonsrod-1.0.3-1.19-fabric-sources.jar.md5",
+        "solomonsrod-1.0.3-1.19-fabric-sources.jar.sha1",
+        "solomonsrod-1.0.3-1.19-fabric-sources.jar.sha256",
+        "solomonsrod-1.0.3-1.19-fabric-sources.jar.sha512",
+        "solomonsrod-1.0.3-1.19-fabric.jar",
+        "solomonsrod-1.0.3-1.19-fabric.jar.md5",
+        "solomonsrod-1.0.3-1.19-fabric.jar.sha1",
+        "solomonsrod-1.0.3-1.19-fabric.jar.sha256",
+        "solomonsrod-1.0.3-1.19-fabric.jar.sha512",
+        "solomonsrod-1.0.3-1.19-fabric.pom",
+        "solomonsrod-1.0.3-1.19-fabric.pom.md5",
+        "solomonsrod-1.0.3-1.19-fabric.pom.sha1",
+        "solomonsrod-1.0.3-1.19-fabric.pom.sha256",
+        "solomonsrod-1.0.3-1.19-fabric.pom.sha512"
+    ]
+}
