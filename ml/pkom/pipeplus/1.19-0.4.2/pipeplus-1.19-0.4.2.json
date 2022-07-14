@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "pipeplus",
+    "version": "1.19-0.4.2",
+    "files": [
+        "pipeplus-1.19-0.4.2-sources.jar",
+        "pipeplus-1.19-0.4.2-sources.jar.md5",
+        "pipeplus-1.19-0.4.2-sources.jar.sha1",
+        "pipeplus-1.19-0.4.2-sources.jar.sha256",
+        "pipeplus-1.19-0.4.2-sources.jar.sha512",
+        "pipeplus-1.19-0.4.2.jar",
+        "pipeplus-1.19-0.4.2.jar.md5",
+        "pipeplus-1.19-0.4.2.jar.sha1",
+        "pipeplus-1.19-0.4.2.jar.sha256",
+        "pipeplus-1.19-0.4.2.jar.sha512",
+        "pipeplus-1.19-0.4.2.pom",
+        "pipeplus-1.19-0.4.2.pom.md5",
+        "pipeplus-1.19-0.4.2.pom.sha1",
+        "pipeplus-1.19-0.4.2.pom.sha256",
+        "pipeplus-1.19-0.4.2.pom.sha512"
+    ]
+}
