@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "storagebox",
+    "version": "1.0.3",
+    "files": [
+        "storagebox-1.0.3-sources.jar",
+        "storagebox-1.0.3-sources.jar.md5",
+        "storagebox-1.0.3-sources.jar.sha1",
+        "storagebox-1.0.3-sources.jar.sha256",
+        "storagebox-1.0.3-sources.jar.sha512",
+        "storagebox-1.0.3.jar",
+        "storagebox-1.0.3.jar.md5",
+        "storagebox-1.0.3.jar.sha1",
+        "storagebox-1.0.3.jar.sha256",
+        "storagebox-1.0.3.jar.sha512",
+        "storagebox-1.0.3.pom",
+        "storagebox-1.0.3.pom.md5",
+        "storagebox-1.0.3.pom.sha1",
+        "storagebox-1.0.3.pom.sha256",
+        "storagebox-1.0.3.pom.sha512"
+    ]
+}
