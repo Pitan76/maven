@@ -23,7 +23,7 @@ function gen_dirlist_html($dir = ".") {
 	$links = '';
 	foreach(glob($dir . '/*') as $key => $value) {
 		$filename = basename($value);
-		if ($filename === "index.html" || $filename === "maven.php") {
+		if ($filename === "index.html" || $filename === "maven.php" || $filename === "CNAME") {
 			continue;
 		}
 		
