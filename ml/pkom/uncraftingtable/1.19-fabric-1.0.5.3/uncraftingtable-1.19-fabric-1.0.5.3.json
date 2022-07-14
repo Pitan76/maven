@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "uncraftingtable",
+    "version": "1.19-fabric-1.0.5.3",
+    "files": [
+        "uncraftingtable-1.19-fabric-1.0.5.3-sources.jar",
+        "uncraftingtable-1.19-fabric-1.0.5.3-sources.jar.md5",
+        "uncraftingtable-1.19-fabric-1.0.5.3-sources.jar.sha1",
+        "uncraftingtable-1.19-fabric-1.0.5.3-sources.jar.sha256",
+        "uncraftingtable-1.19-fabric-1.0.5.3-sources.jar.sha512",
+        "uncraftingtable-1.19-fabric-1.0.5.3.jar",
+        "uncraftingtable-1.19-fabric-1.0.5.3.jar.md5",
+        "uncraftingtable-1.19-fabric-1.0.5.3.jar.sha1",
+        "uncraftingtable-1.19-fabric-1.0.5.3.jar.sha256",
+        "uncraftingtable-1.19-fabric-1.0.5.3.jar.sha512",
+        "uncraftingtable-1.19-fabric-1.0.5.3.pom",
+        "uncraftingtable-1.19-fabric-1.0.5.3.pom.md5",
+        "uncraftingtable-1.19-fabric-1.0.5.3.pom.sha1",
+        "uncraftingtable-1.19-fabric-1.0.5.3.pom.sha256",
+        "uncraftingtable-1.19-fabric-1.0.5.3.pom.sha512"
+    ]
+}
