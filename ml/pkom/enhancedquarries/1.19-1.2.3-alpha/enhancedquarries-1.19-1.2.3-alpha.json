@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "enhancedquarries",
+    "version": "1.19-1.2.3-alpha",
+    "files": [
+        "enhancedquarries-1.19-1.2.3-alpha-sources.jar",
+        "enhancedquarries-1.19-1.2.3-alpha-sources.jar.md5",
+        "enhancedquarries-1.19-1.2.3-alpha-sources.jar.sha1",
+        "enhancedquarries-1.19-1.2.3-alpha-sources.jar.sha256",
+        "enhancedquarries-1.19-1.2.3-alpha-sources.jar.sha512",
+        "enhancedquarries-1.19-1.2.3-alpha.jar",
+        "enhancedquarries-1.19-1.2.3-alpha.jar.md5",
+        "enhancedquarries-1.19-1.2.3-alpha.jar.sha1",
+        "enhancedquarries-1.19-1.2.3-alpha.jar.sha256",
+        "enhancedquarries-1.19-1.2.3-alpha.jar.sha512",
+        "enhancedquarries-1.19-1.2.3-alpha.pom",
+        "enhancedquarries-1.19-1.2.3-alpha.pom.md5",
+        "enhancedquarries-1.19-1.2.3-alpha.pom.sha1",
+        "enhancedquarries-1.19-1.2.3-alpha.pom.sha256",
+        "enhancedquarries-1.19-1.2.3-alpha.pom.sha512"
+    ]
+}
