@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "mcpitanlib2",
+    "version": "2.0.0+1.19-forge",
+    "files": [
+        "mcpitanlib2-2.0.0+1.19-forge-sources.jar",
+        "mcpitanlib2-2.0.0+1.19-forge-sources.jar.md5",
+        "mcpitanlib2-2.0.0+1.19-forge-sources.jar.sha1",
+        "mcpitanlib2-2.0.0+1.19-forge-sources.jar.sha256",
+        "mcpitanlib2-2.0.0+1.19-forge-sources.jar.sha512",
+        "mcpitanlib2-2.0.0+1.19-forge.jar",
+        "mcpitanlib2-2.0.0+1.19-forge.jar.md5",
+        "mcpitanlib2-2.0.0+1.19-forge.jar.sha1",
+        "mcpitanlib2-2.0.0+1.19-forge.jar.sha256",
+        "mcpitanlib2-2.0.0+1.19-forge.jar.sha512",
+        "mcpitanlib2-2.0.0+1.19-forge.pom",
+        "mcpitanlib2-2.0.0+1.19-forge.pom.md5",
+        "mcpitanlib2-2.0.0+1.19-forge.pom.sha1",
+        "mcpitanlib2-2.0.0+1.19-forge.pom.sha256",
+        "mcpitanlib2-2.0.0+1.19-forge.pom.sha512"
+    ]
+}
