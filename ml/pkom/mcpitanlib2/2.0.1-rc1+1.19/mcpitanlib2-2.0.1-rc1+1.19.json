@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "mcpitanlib2",
+    "version": "2.0.1-rc1+1.19",
+    "files": [
+        "mcpitanlib2-2.0.1-rc1+1.19-sources.jar",
+        "mcpitanlib2-2.0.1-rc1+1.19-sources.jar.md5",
+        "mcpitanlib2-2.0.1-rc1+1.19-sources.jar.sha1",
+        "mcpitanlib2-2.0.1-rc1+1.19-sources.jar.sha256",
+        "mcpitanlib2-2.0.1-rc1+1.19-sources.jar.sha512",
+        "mcpitanlib2-2.0.1-rc1+1.19.jar",
+        "mcpitanlib2-2.0.1-rc1+1.19.jar.md5",
+        "mcpitanlib2-2.0.1-rc1+1.19.jar.sha1",
+        "mcpitanlib2-2.0.1-rc1+1.19.jar.sha256",
+        "mcpitanlib2-2.0.1-rc1+1.19.jar.sha512",
+        "mcpitanlib2-2.0.1-rc1+1.19.pom",
+        "mcpitanlib2-2.0.1-rc1+1.19.pom.md5",
+        "mcpitanlib2-2.0.1-rc1+1.19.pom.sha1",
+        "mcpitanlib2-2.0.1-rc1+1.19.pom.sha256",
+        "mcpitanlib2-2.0.1-rc1+1.19.pom.sha512"
+    ]
+}

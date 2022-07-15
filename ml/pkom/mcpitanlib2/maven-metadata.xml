@@ -3,14 +3,15 @@
   <groupId>ml.pkom</groupId>
   <artifactId>mcpitanlib2</artifactId>
   <versioning>
-    <latest>2.0.1-rc1+1.19-forge</latest>
+    <latest>2.0.1-rc1+1.19</latest>
     <release>2.0.1-rc1+1.19-forge</release>
     <versions>
       <version>2.0.0+1.19-fabric</version>
 <version>2.0.0+1.19-forge</version>
+<version>2.0.1-rc1+1.19</version>
 <version>2.0.1-rc1+1.19-fabric</version>
 <version>2.0.1-rc1+1.19-forge</version>
     </versions>
-    <lastUpdated>20220714191312</lastUpdated>
+    <lastUpdated>20220715075302</lastUpdated>
   </versioning>
 </metadata>
