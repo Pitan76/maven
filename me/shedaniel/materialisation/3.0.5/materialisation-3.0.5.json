@@ -1,0 +1,22 @@
+{
+    "group_id": "me.shedaniel",
+    "artifact_id": "materialisation",
+    "version": "3.0.5",
+    "files": [
+        "materialisation-3.0.5-sources.jar",
+        "materialisation-3.0.5-sources.jar.md5",
+        "materialisation-3.0.5-sources.jar.sha1",
+        "materialisation-3.0.5-sources.jar.sha256",
+        "materialisation-3.0.5-sources.jar.sha512",
+        "materialisation-3.0.5.jar",
+        "materialisation-3.0.5.jar.md5",
+        "materialisation-3.0.5.jar.sha1",
+        "materialisation-3.0.5.jar.sha256",
+        "materialisation-3.0.5.jar.sha512",
+        "materialisation-3.0.5.pom",
+        "materialisation-3.0.5.pom.md5",
+        "materialisation-3.0.5.pom.sha1",
+        "materialisation-3.0.5.pom.sha256",
+        "materialisation-3.0.5.pom.sha512"
+    ]
+}
