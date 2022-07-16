@@ -17,7 +17,11 @@ if (!function_exists('str_ends_with')) {
 	}
 }
 
-function gen_dirlist_html($dir = ".") {
+if (isset($_GET['genindex'])) {
+	gen_dirlist_html(".", true);
+}
+
+function gen_dirlist_html($dir = ".", $regen = false) {
 	global $group_path, $artifact_id, $version;
 	
 	$links = '';
@@ -37,8 +41,9 @@ function gen_dirlist_html($dir = ".") {
 		}
 		if (is_dir($value)) {
 			$links .= '<a href="./' . $filename . '/">' . $displayname . '/</a>' . str_repeat(" ", $c - 1) . date("d-M-Y H:i", filemtime($value)) . "                   -\n";
-			if (strpos($group_path . "/" . $artifact_id . "/" . $version, $filename) !== false)
-				gen_dirlist_html($dir . "/" . $filename);
+			if (isset($_GET['genindex']) || (strpos($group_path . "/" . $artifact_id . "/" . $version, $filename) !== false)) {
+				gen_dirlist_html($value);
+			}
 		} else {
 			$links .= '<a href="./' . $filename . '">' . $displayname . '</a>' . str_repeat(" ", $c) . date("d-M-Y H:i", filemtime($value)) . str_pad(filesize($value), 20, " ", STR_PAD_LEFT) . "\n";
 		}
@@ -202,6 +207,11 @@ EOD;
 			version: <input type="text" name="version" value="<?php echo $DEFAULT_VERSION; ?>" placeholder="1.0.0" required /><br />
 			files: <input type="file" name="upload[]" id="upload" onchange="checkfile()" multiple required /><br />
 			<pre id="fileview">&nbsp;&nbsp;&nbsp;file: xxx.jar<br />&nbsp;&nbsp;&nbsp;source: xxx-sources.jar<br />&nbsp;&nbsp;&nbsp;pom: xxx.pom (any)<br /></pre>
-		<button type="submit">Create</button>
+			<button type="submit">Create</button>
+		</form>
+		<form method="get">
+			<input type="hidden" name="genindex" value="true" />
+			<button type="submit">Regenerate index.html</button>
+		</form>
 	</body>
 </html>
