@@ -3,7 +3,7 @@
 // Author: Pitan
 
 define('DEFAULT_GROUP_ID', "ml.pkom");
-define('DEFAULT_VERSION', "1.0.0");
+define('DEFAULT_VERSION', "1.0.6");
 define('GENERATE_INDEX_HTML', true);
 define('AUTO_PUSH', true);
 define('NODISPLAY_FILE', array('index.html', 'maven.php', 'CNAME', 'mcpitanlibarch.php'));
@@ -204,7 +204,7 @@ EOD;
 		</script>
 		<form method="post" enctype="multipart/form-data">
 			group id: <input type="text" name="group_id" value="<?php echo $DEFAULT_GROUP_ID; ?>" placeholder="com.example" required /><br />
-			artifact id: <input type="text" name="artifact_id" value="" placeholder="example" required /><br />
+			artifact id: <input type="text" name="artifact_id" value="mcpitanlibarch-forge+1.19" placeholder="example" required /><br />
 			version: <input type="text" name="version" value="<?php echo $DEFAULT_VERSION; ?>" placeholder="1.0.0" required /><br />
 			files: <input type="file" name="upload[]" id="upload" onchange="checkfile()" multiple required /><br />
 			<pre id="fileview">&nbsp;&nbsp;&nbsp;file: xxx.jar<br />&nbsp;&nbsp;&nbsp;source: xxx-sources.jar<br />&nbsp;&nbsp;&nbsp;pom: xxx.pom (any)<br /></pre>
