@@ -184,7 +184,6 @@ EOD;
 		exec('git push');
 		echo "pushed.";
 	}
-	exit;
 }
 ?>
 <html>
