@@ -1,0 +1,22 @@
+{
+    "group_id": "dev.onyxstudios.cardinal-components-api",
+    "artifact_id": "cardinal-components-entity",
+    "version": "5.1.0-beta.1+1.19.3",
+    "files": [
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3-sources.jar",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3-sources.jar.md5",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3-sources.jar.sha1",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3-sources.jar.sha256",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3-sources.jar.sha512",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.jar",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.jar.md5",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.jar.sha1",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.jar.sha256",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.jar.sha512",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.pom",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.pom.md5",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.pom.sha1",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.pom.sha256",
+        "cardinal-components-entity-5.1.0-beta.1+1.19.3.pom.sha512"
+    ]
+}
