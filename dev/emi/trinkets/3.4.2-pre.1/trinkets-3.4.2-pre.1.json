@@ -1,0 +1,22 @@
+{
+    "group_id": "dev.emi",
+    "artifact_id": "trinkets",
+    "version": "3.4.2-pre.1",
+    "files": [
+        "trinkets-3.4.2-pre.1-sources.jar",
+        "trinkets-3.4.2-pre.1-sources.jar.md5",
+        "trinkets-3.4.2-pre.1-sources.jar.sha1",
+        "trinkets-3.4.2-pre.1-sources.jar.sha256",
+        "trinkets-3.4.2-pre.1-sources.jar.sha512",
+        "trinkets-3.4.2-pre.1.jar",
+        "trinkets-3.4.2-pre.1.jar.md5",
+        "trinkets-3.4.2-pre.1.jar.sha1",
+        "trinkets-3.4.2-pre.1.jar.sha256",
+        "trinkets-3.4.2-pre.1.jar.sha512",
+        "trinkets-3.4.2-pre.1.pom",
+        "trinkets-3.4.2-pre.1.pom.md5",
+        "trinkets-3.4.2-pre.1.pom.sha1",
+        "trinkets-3.4.2-pre.1.pom.sha256",
+        "trinkets-3.4.2-pre.1.pom.sha512"
+    ]
+}
