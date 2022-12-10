@@ -1,0 +1,22 @@
+{
+    "group_id": "net.devtech",
+    "artifact_id": "arrp",
+    "version": "0.6.5-pre.1",
+    "files": [
+        "arrp-0.6.5-pre.1-sources.jar",
+        "arrp-0.6.5-pre.1-sources.jar.md5",
+        "arrp-0.6.5-pre.1-sources.jar.sha1",
+        "arrp-0.6.5-pre.1-sources.jar.sha256",
+        "arrp-0.6.5-pre.1-sources.jar.sha512",
+        "arrp-0.6.5-pre.1.jar",
+        "arrp-0.6.5-pre.1.jar.md5",
+        "arrp-0.6.5-pre.1.jar.sha1",
+        "arrp-0.6.5-pre.1.jar.sha256",
+        "arrp-0.6.5-pre.1.jar.sha512",
+        "arrp-0.6.5-pre.1.pom",
+        "arrp-0.6.5-pre.1.pom.md5",
+        "arrp-0.6.5-pre.1.pom.sha1",
+        "arrp-0.6.5-pre.1.pom.sha256",
+        "arrp-0.6.5-pre.1.pom.sha512"
+    ]
+}
