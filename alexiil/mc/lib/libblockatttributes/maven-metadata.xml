@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <groupId>alexiil.mc.lib</groupId>
+  <artifactId>libblockatttributes</artifactId>
+  <versioning>
+    <latest>0.11.0-pre.2</latest>
+    <release>0.11.0-pre.2</release>
+    <versions>
+      <version>0.11.0-pre.2</version>
+    </versions>
+    <lastUpdated>20221211085807</lastUpdated>
+  </versioning>
+</metadata>
