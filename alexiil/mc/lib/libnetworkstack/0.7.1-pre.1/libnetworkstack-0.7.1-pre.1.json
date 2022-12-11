@@ -1,0 +1,22 @@
+{
+    "group_id": "alexiil.mc.lib",
+    "artifact_id": "libnetworkstack",
+    "version": "0.7.1-pre.1",
+    "files": [
+        "libnetworkstack-0.7.1-pre.1-sources.jar",
+        "libnetworkstack-0.7.1-pre.1-sources.jar.md5",
+        "libnetworkstack-0.7.1-pre.1-sources.jar.sha1",
+        "libnetworkstack-0.7.1-pre.1-sources.jar.sha256",
+        "libnetworkstack-0.7.1-pre.1-sources.jar.sha512",
+        "libnetworkstack-0.7.1-pre.1.jar",
+        "libnetworkstack-0.7.1-pre.1.jar.md5",
+        "libnetworkstack-0.7.1-pre.1.jar.sha1",
+        "libnetworkstack-0.7.1-pre.1.jar.sha256",
+        "libnetworkstack-0.7.1-pre.1.jar.sha512",
+        "libnetworkstack-0.7.1-pre.1.pom",
+        "libnetworkstack-0.7.1-pre.1.pom.md5",
+        "libnetworkstack-0.7.1-pre.1.pom.sha1",
+        "libnetworkstack-0.7.1-pre.1.pom.sha256",
+        "libnetworkstack-0.7.1-pre.1.pom.sha512"
+    ]
+}
