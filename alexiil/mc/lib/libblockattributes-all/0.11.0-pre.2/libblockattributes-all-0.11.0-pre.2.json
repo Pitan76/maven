@@ -1,0 +1,22 @@
+{
+    "group_id": "alexiil.mc.lib",
+    "artifact_id": "libblockattributes-all",
+    "version": "0.11.0-pre.2",
+    "files": [
+        "libblockattributes-all-0.11.0-pre.2-sources.jar",
+        "libblockattributes-all-0.11.0-pre.2-sources.jar.md5",
+        "libblockattributes-all-0.11.0-pre.2-sources.jar.sha1",
+        "libblockattributes-all-0.11.0-pre.2-sources.jar.sha256",
+        "libblockattributes-all-0.11.0-pre.2-sources.jar.sha512",
+        "libblockattributes-all-0.11.0-pre.2.jar",
+        "libblockattributes-all-0.11.0-pre.2.jar.md5",
+        "libblockattributes-all-0.11.0-pre.2.jar.sha1",
+        "libblockattributes-all-0.11.0-pre.2.jar.sha256",
+        "libblockattributes-all-0.11.0-pre.2.jar.sha512",
+        "libblockattributes-all-0.11.0-pre.2.pom",
+        "libblockattributes-all-0.11.0-pre.2.pom.md5",
+        "libblockattributes-all-0.11.0-pre.2.pom.sha1",
+        "libblockattributes-all-0.11.0-pre.2.pom.sha256",
+        "libblockattributes-all-0.11.0-pre.2.pom.sha512"
+    ]
+}
