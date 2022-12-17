@@ -3,8 +3,8 @@
   <groupId>ml.pkom</groupId>
   <artifactId>mcpitanlibarch-fabric+1.19</artifactId>
   <versioning>
-    <latest>1.2.7</latest>
-    <release>1.2.7</release>
+    <latest>1.2.8</latest>
+    <release>1.2.8</release>
     <versions>
       <version>1.0.2</version>
 <version>1.0.3</version>
@@ -30,7 +30,8 @@
 <version>1.2.5</version>
 <version>1.2.6</version>
 <version>1.2.7</version>
+<version>1.2.8</version>
     </versions>
-    <lastUpdated>20221213135518</lastUpdated>
+    <lastUpdated>20221217142436</lastUpdated>
   </versioning>
 </metadata>
