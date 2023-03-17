@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "mcpitanlibarch-fabric+1.16",
+    "version": "1.5.4",
+    "files": [
+        "mcpitanlibarch-fabric+1.16-1.5.4-sources.jar",
+        "mcpitanlibarch-fabric+1.16-1.5.4-sources.jar.md5",
+        "mcpitanlibarch-fabric+1.16-1.5.4-sources.jar.sha1",
+        "mcpitanlibarch-fabric+1.16-1.5.4-sources.jar.sha256",
+        "mcpitanlibarch-fabric+1.16-1.5.4-sources.jar.sha512",
+        "mcpitanlibarch-fabric+1.16-1.5.4.jar",
+        "mcpitanlibarch-fabric+1.16-1.5.4.jar.md5",
+        "mcpitanlibarch-fabric+1.16-1.5.4.jar.sha1",
+        "mcpitanlibarch-fabric+1.16-1.5.4.jar.sha256",
+        "mcpitanlibarch-fabric+1.16-1.5.4.jar.sha512",
+        "mcpitanlibarch-fabric+1.16-1.5.4.pom",
+        "mcpitanlibarch-fabric+1.16-1.5.4.pom.md5",
+        "mcpitanlibarch-fabric+1.16-1.5.4.pom.sha1",
+        "mcpitanlibarch-fabric+1.16-1.5.4.pom.sha256",
+        "mcpitanlibarch-fabric+1.16-1.5.4.pom.sha512"
+    ]
+}
