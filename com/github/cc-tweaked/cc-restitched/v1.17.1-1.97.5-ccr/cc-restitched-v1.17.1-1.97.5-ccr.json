@@ -1,0 +1,17 @@
+{
+    "group_id": "com.github.cc-tweaked",
+    "artifact_id": "cc-restitched",
+    "version": "v1.17.1-1.97.5-ccr",
+    "files": [
+        "cc-restitched-v1.17.1-1.97.5-ccr.jar",
+        "cc-restitched-v1.17.1-1.97.5-ccr.jar.md5",
+        "cc-restitched-v1.17.1-1.97.5-ccr.jar.sha1",
+        "cc-restitched-v1.17.1-1.97.5-ccr.jar.sha256",
+        "cc-restitched-v1.17.1-1.97.5-ccr.jar.sha512",
+        "cc-restitched-v1.17.1-1.97.5-ccr.pom",
+        "cc-restitched-v1.17.1-1.97.5-ccr.pom.md5",
+        "cc-restitched-v1.17.1-1.97.5-ccr.pom.sha1",
+        "cc-restitched-v1.17.1-1.97.5-ccr.pom.sha256",
+        "cc-restitched-v1.17.1-1.97.5-ccr.pom.sha512"
+    ]
+}
