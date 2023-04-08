@@ -13,7 +13,7 @@
   <dependencies>
     <dependency>
       <groupId>dev.architectury</groupId>
-      <artifactId>architectury-forge+1.19.3</artifactId>
+      <artifactId>architectury-forge</artifactId>
       <version>7.0.65</version>
       <scope>compile</scope>
     </dependency>
