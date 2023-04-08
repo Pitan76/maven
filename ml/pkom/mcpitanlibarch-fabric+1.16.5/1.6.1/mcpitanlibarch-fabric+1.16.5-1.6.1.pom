@@ -8,7 +8,7 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>ml.pkom</groupId>
-  <artifactId>mcpitanlibarch-fabric</artifactId>
+  <artifactId>mcpitanlibarch-fabric+1.16.5</artifactId>
   <version>1.6.1-1.17.1-fabric</version>
   <dependencies>
     <dependency>
@@ -19,7 +19,7 @@
     </dependency>
     <dependency>
       <groupId>dev.architectury</groupId>
-      <artifactId>architectury-fabric</artifactId>
+      <artifactId>architectury-fabric+1.16.5</artifactId>
       <version>2.10.12</version>
       <scope>compile</scope>
     </dependency>
