@@ -19,7 +19,7 @@
     </dependency>
     <dependency>
       <groupId>dev.architectury</groupId>
-      <artifactId>architectury-fabric+1.18.2</artifactId>
+      <artifactId>architectury-fabric</artifactId>
       <version>4.9.84</version>
       <scope>compile</scope>
     </dependency>
