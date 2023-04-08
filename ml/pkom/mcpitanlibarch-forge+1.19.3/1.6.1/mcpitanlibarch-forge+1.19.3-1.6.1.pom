@@ -9,12 +9,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ml.pkom</groupId>
   <artifactId>mcpitanlibarch-forge</artifactId>
-  <version>1.6.1-1.16.5-forge</version>
+  <version>1.6.1-1.19.3-forge</version>
   <dependencies>
     <dependency>
-      <groupId>me.shedaniel</groupId>
+      <groupId>dev.architectury</groupId>
       <artifactId>architectury-forge</artifactId>
-      <version>1.32.66</version>
+      <version>7.0.65</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
