@@ -9,30 +9,18 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ml.pkom</groupId>
   <artifactId>mcpitanlibarch-fabric</artifactId>
-  <version>1.6.1-1.16.5-fabric</version>
+  <version>1.6.1-1.19.3-fabric</version>
   <dependencies>
-    <dependency>
-      <groupId>net.jodah</groupId>
-      <artifactId>typetools</artifactId>
-      <version>0.6.2</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
     <dependency>
       <groupId>net.fabricmc.fabric-api</groupId>
       <artifactId>fabric-api</artifactId>
-      <version>0.42.0+1.16</version>
+      <version>0.68.1+1.19.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>me.shedaniel</groupId>
+      <groupId>dev.architectury</groupId>
       <artifactId>architectury-fabric</artifactId>
-      <version>1.32.66</version>
+      <version>7.0.65</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -44,7 +32,7 @@
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
-      <version>0.14.9</version>
+      <version>0.14.11</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
