@@ -8,8 +8,8 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>ml.pkom</groupId>
-  <artifactId>mcpitanlibarch-fabric</artifactId>
-  <version>1.6.1-1.19.4-fabric</version>
+  <artifactId>mcpitanlibarch-fabric+1.19.4</artifactId>
+  <version>1.6.1</version>
   <dependencies>
     <dependency>
       <groupId>net.fabricmc.fabric-api</groupId>
@@ -19,7 +19,7 @@
     </dependency>
     <dependency>
       <groupId>dev.architectury</groupId>
-      <artifactId>architectury-fabric</artifactId>
+      <artifactId>architectury-fabric+1.19.4</artifactId>
       <version>8.1.73</version>
       <scope>compile</scope>
     </dependency>
