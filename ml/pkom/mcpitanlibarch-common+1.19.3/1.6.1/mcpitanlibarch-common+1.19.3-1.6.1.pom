@@ -8,12 +8,24 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>ml.pkom</groupId>
-  <artifactId>mcpitanlibarch-forge</artifactId>
-  <version>1.6.1-1.16.5-forge</version>
+  <artifactId>mcpitanlibarch</artifactId>
+  <version>1.6.1-1.16.5</version>
   <dependencies>
     <dependency>
+      <groupId>net.jodah</groupId>
+      <artifactId>typetools</artifactId>
+      <version>0.6.2</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>me.shedaniel</groupId>
-      <artifactId>architectury-forge</artifactId>
+      <artifactId>architectury</artifactId>
       <version>1.32.66</version>
       <scope>compile</scope>
     </dependency>
@@ -21,6 +33,12 @@
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
       <version>2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.14.9</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
