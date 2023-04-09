@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ml.pkom</groupId>
   <artifactId>mcpitanlibarch</artifactId>
-  <version>1.6.1-1.19.2</version>
+  <version>1.6.2-1.19.2</version>
   <dependencies>
     <dependency>
       <groupId>dev.architectury</groupId>
