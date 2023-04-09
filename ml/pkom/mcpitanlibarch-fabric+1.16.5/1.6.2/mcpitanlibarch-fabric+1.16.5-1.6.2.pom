@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ml.pkom</groupId>
   <artifactId>mcpitanlibarch-fabric+1.16.5</artifactId>
-  <version>1.6.1-1.17.1-fabric</version>
+  <version>1.6.2-1.17.1-fabric</version>
   <dependencies>
     <dependency>
       <groupId>net.fabricmc.fabric-api</groupId>
@@ -19,7 +19,7 @@
     </dependency>
     <dependency>
       <groupId>dev.architectury</groupId>
-      <artifactId>architectury-fabric+1.16.5</artifactId>
+      <artifactId>architectury-fabric</artifactId>
       <version>2.10.12</version>
       <scope>compile</scope>
     </dependency>
