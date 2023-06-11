@@ -8,7 +8,7 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>ml.pkom</groupId>
-  <artifactId>mcpitanlibarch+1.19.2</artifactId>
+  <artifactId>mcpitanlibarch-common+1.19.2</artifactId>
   <version>1.6.4</version>
   <dependencies>
     <dependency>
