@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "mcpitanlibarch-common+1.19.2",
+    "version": "1.6.10",
+    "files": [
+        "mcpitanlibarch-common+1.19.2-1.6.10-sources.jar",
+        "mcpitanlibarch-common+1.19.2-1.6.10-sources.jar.md5",
+        "mcpitanlibarch-common+1.19.2-1.6.10-sources.jar.sha1",
+        "mcpitanlibarch-common+1.19.2-1.6.10-sources.jar.sha256",
+        "mcpitanlibarch-common+1.19.2-1.6.10-sources.jar.sha512",
+        "mcpitanlibarch-common+1.19.2-1.6.10.jar",
+        "mcpitanlibarch-common+1.19.2-1.6.10.jar.md5",
+        "mcpitanlibarch-common+1.19.2-1.6.10.jar.sha1",
+        "mcpitanlibarch-common+1.19.2-1.6.10.jar.sha256",
+        "mcpitanlibarch-common+1.19.2-1.6.10.jar.sha512",
+        "mcpitanlibarch-common+1.19.2-1.6.10.pom",
+        "mcpitanlibarch-common+1.19.2-1.6.10.pom.md5",
+        "mcpitanlibarch-common+1.19.2-1.6.10.pom.sha1",
+        "mcpitanlibarch-common+1.19.2-1.6.10.pom.sha256",
+        "mcpitanlibarch-common+1.19.2-1.6.10.pom.sha512"
+    ]
+}
