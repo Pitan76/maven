@@ -1,0 +1,17 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "advancedreborn",
+    "version": "1.20-1.2.2",
+    "files": [
+        "advancedreborn-1.20-1.2.2.jar",
+        "advancedreborn-1.20-1.2.2.jar.md5",
+        "advancedreborn-1.20-1.2.2.jar.sha1",
+        "advancedreborn-1.20-1.2.2.jar.sha256",
+        "advancedreborn-1.20-1.2.2.jar.sha512",
+        "advancedreborn-1.20-1.2.2.pom",
+        "advancedreborn-1.20-1.2.2.pom.md5",
+        "advancedreborn-1.20-1.2.2.pom.sha1",
+        "advancedreborn-1.20-1.2.2.pom.sha256",
+        "advancedreborn-1.20-1.2.2.pom.sha512"
+    ]
+}
