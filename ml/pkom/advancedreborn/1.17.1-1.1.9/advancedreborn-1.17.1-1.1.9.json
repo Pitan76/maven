@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "advancedreborn",
+    "version": "1.17.1-1.1.9",
+    "files": [
+        "advancedreborn-1.17.1-1.1.9-sources.jar",
+        "advancedreborn-1.17.1-1.1.9-sources.jar.md5",
+        "advancedreborn-1.17.1-1.1.9-sources.jar.sha1",
+        "advancedreborn-1.17.1-1.1.9-sources.jar.sha256",
+        "advancedreborn-1.17.1-1.1.9-sources.jar.sha512",
+        "advancedreborn-1.17.1-1.1.9.jar",
+        "advancedreborn-1.17.1-1.1.9.jar.md5",
+        "advancedreborn-1.17.1-1.1.9.jar.sha1",
+        "advancedreborn-1.17.1-1.1.9.jar.sha256",
+        "advancedreborn-1.17.1-1.1.9.jar.sha512",
+        "advancedreborn-1.17.1-1.1.9.pom",
+        "advancedreborn-1.17.1-1.1.9.pom.md5",
+        "advancedreborn-1.17.1-1.1.9.pom.sha1",
+        "advancedreborn-1.17.1-1.1.9.pom.sha256",
+        "advancedreborn-1.17.1-1.1.9.pom.sha512"
+    ]
+}
