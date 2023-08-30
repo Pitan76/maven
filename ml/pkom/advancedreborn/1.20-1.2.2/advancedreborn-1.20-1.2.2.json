@@ -3,6 +3,11 @@
     "artifact_id": "advancedreborn",
     "version": "1.20-1.2.2",
     "files": [
+        "advancedreborn-1.20-1.2.2-sources.jar",
+        "advancedreborn-1.20-1.2.2-sources.jar.md5",
+        "advancedreborn-1.20-1.2.2-sources.jar.sha1",
+        "advancedreborn-1.20-1.2.2-sources.jar.sha256",
+        "advancedreborn-1.20-1.2.2-sources.jar.sha512",
         "advancedreborn-1.20-1.2.2.jar",
         "advancedreborn-1.20-1.2.2.jar.md5",
         "advancedreborn-1.20-1.2.2.jar.sha1",
