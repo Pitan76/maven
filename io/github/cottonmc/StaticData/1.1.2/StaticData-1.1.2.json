@@ -1,0 +1,22 @@
+{
+    "group_id": "io.github.cottonmc",
+    "artifact_id": "StaticData",
+    "version": "1.1.2",
+    "files": [
+        "StaticData-1.1.2-sources.jar",
+        "StaticData-1.1.2-sources.jar.md5",
+        "StaticData-1.1.2-sources.jar.sha1",
+        "StaticData-1.1.2-sources.jar.sha256",
+        "StaticData-1.1.2-sources.jar.sha512",
+        "StaticData-1.1.2.jar",
+        "StaticData-1.1.2.jar.md5",
+        "StaticData-1.1.2.jar.sha1",
+        "StaticData-1.1.2.jar.sha256",
+        "StaticData-1.1.2.jar.sha512",
+        "StaticData-1.1.2.pom",
+        "StaticData-1.1.2.pom.md5",
+        "StaticData-1.1.2.pom.sha1",
+        "StaticData-1.1.2.pom.sha256",
+        "StaticData-1.1.2.pom.sha512"
+    ]
+}
