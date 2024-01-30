@@ -3,11 +3,12 @@
   <groupId>ml.pkom</groupId>
   <artifactId>mcpitanlibarch-neoforge+1.20.2</artifactId>
   <versioning>
-    <latest>1.8.5</latest>
-    <release>1.8.5</release>
+    <latest>1.8.6</latest>
+    <release>1.8.6</release>
     <versions>
       <version>1.8.5</version>
+<version>1.8.6</version>
     </versions>
-    <lastUpdated>20240112152528</lastUpdated>
+    <lastUpdated>20240130144337</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "mcpitanlibarch-neoforge+1.20.2",
+    "version": "1.8.6",
+    "files": [
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6-sources.jar",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6-sources.jar.md5",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6-sources.jar.sha1",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6-sources.jar.sha256",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6-sources.jar.sha512",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.jar",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.jar.md5",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.jar.sha1",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.jar.sha256",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.jar.sha512",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.pom",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.pom.md5",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.pom.sha1",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.pom.sha256",
+        "mcpitanlibarch-neoforge+1.20.2-1.8.6.pom.sha512"
+    ]
+}
