@@ -3,13 +3,14 @@
   <groupId>ml.pkom</groupId>
   <artifactId>mcpitanlibarch-forge+1.20.4</artifactId>
   <versioning>
-    <latest>1.8.7</latest>
-    <release>1.8.7</release>
+    <latest>1.8.8</latest>
+    <release>1.8.8</release>
     <versions>
       <version>1.8.5</version>
 <version>1.8.6</version>
 <version>1.8.7</version>
+<version>1.8.8</version>
     </versions>
-    <lastUpdated>20240205113620</lastUpdated>
+    <lastUpdated>20240205131738</lastUpdated>
   </versioning>
 </metadata>
