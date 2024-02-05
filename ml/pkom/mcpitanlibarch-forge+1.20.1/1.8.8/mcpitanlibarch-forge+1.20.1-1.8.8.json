@@ -1,0 +1,22 @@
+{
+    "group_id": "ml.pkom",
+    "artifact_id": "mcpitanlibarch-forge+1.20.1",
+    "version": "1.8.8",
+    "files": [
+        "mcpitanlibarch-forge+1.20.1-1.8.8-sources.jar",
+        "mcpitanlibarch-forge+1.20.1-1.8.8-sources.jar.md5",
+        "mcpitanlibarch-forge+1.20.1-1.8.8-sources.jar.sha1",
+        "mcpitanlibarch-forge+1.20.1-1.8.8-sources.jar.sha256",
+        "mcpitanlibarch-forge+1.20.1-1.8.8-sources.jar.sha512",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.jar",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.jar.md5",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.jar.sha1",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.jar.sha256",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.jar.sha512",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.pom",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.pom.md5",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.pom.sha1",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.pom.sha256",
+        "mcpitanlibarch-forge+1.20.1-1.8.8.pom.sha512"
+    ]
+}
