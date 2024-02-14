@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "mcpitanlib-common+1.19.3",
+    "version": "1.9.6",
+    "files": [
+        "mcpitanlib-common+1.19.3-1.9.6-sources.jar",
+        "mcpitanlib-common+1.19.3-1.9.6-sources.jar.md5",
+        "mcpitanlib-common+1.19.3-1.9.6-sources.jar.sha1",
+        "mcpitanlib-common+1.19.3-1.9.6-sources.jar.sha256",
+        "mcpitanlib-common+1.19.3-1.9.6-sources.jar.sha512",
+        "mcpitanlib-common+1.19.3-1.9.6.jar",
+        "mcpitanlib-common+1.19.3-1.9.6.jar.md5",
+        "mcpitanlib-common+1.19.3-1.9.6.jar.sha1",
+        "mcpitanlib-common+1.19.3-1.9.6.jar.sha256",
+        "mcpitanlib-common+1.19.3-1.9.6.jar.sha512",
+        "mcpitanlib-common+1.19.3-1.9.6.pom",
+        "mcpitanlib-common+1.19.3-1.9.6.pom.md5",
+        "mcpitanlib-common+1.19.3-1.9.6.pom.sha1",
+        "mcpitanlib-common+1.19.3-1.9.6.pom.sha256",
+        "mcpitanlib-common+1.19.3-1.9.6.pom.sha512"
+    ]
+}
