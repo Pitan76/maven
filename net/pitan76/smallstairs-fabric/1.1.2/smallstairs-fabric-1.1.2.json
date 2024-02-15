@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "smallstairs-fabric",
+    "version": "1.1.2",
+    "files": [
+        "smallstairs-fabric-1.1.2-sources.jar",
+        "smallstairs-fabric-1.1.2-sources.jar.md5",
+        "smallstairs-fabric-1.1.2-sources.jar.sha1",
+        "smallstairs-fabric-1.1.2-sources.jar.sha256",
+        "smallstairs-fabric-1.1.2-sources.jar.sha512",
+        "smallstairs-fabric-1.1.2.jar",
+        "smallstairs-fabric-1.1.2.jar.md5",
+        "smallstairs-fabric-1.1.2.jar.sha1",
+        "smallstairs-fabric-1.1.2.jar.sha256",
+        "smallstairs-fabric-1.1.2.jar.sha512",
+        "smallstairs-fabric-1.1.2.pom",
+        "smallstairs-fabric-1.1.2.pom.md5",
+        "smallstairs-fabric-1.1.2.pom.sha1",
+        "smallstairs-fabric-1.1.2.pom.sha256",
+        "smallstairs-fabric-1.1.2.pom.sha512"
+    ]
+}
