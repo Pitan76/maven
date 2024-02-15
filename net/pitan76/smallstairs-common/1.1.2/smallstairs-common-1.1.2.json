@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "smallstairs-common",
+    "version": "1.1.2",
+    "files": [
+        "smallstairs-common-1.1.2-sources.jar",
+        "smallstairs-common-1.1.2-sources.jar.md5",
+        "smallstairs-common-1.1.2-sources.jar.sha1",
+        "smallstairs-common-1.1.2-sources.jar.sha256",
+        "smallstairs-common-1.1.2-sources.jar.sha512",
+        "smallstairs-common-1.1.2.jar",
+        "smallstairs-common-1.1.2.jar.md5",
+        "smallstairs-common-1.1.2.jar.sha1",
+        "smallstairs-common-1.1.2.jar.sha256",
+        "smallstairs-common-1.1.2.jar.sha512",
+        "smallstairs-common-1.1.2.pom",
+        "smallstairs-common-1.1.2.pom.md5",
+        "smallstairs-common-1.1.2.pom.sha1",
+        "smallstairs-common-1.1.2.pom.sha256",
+        "smallstairs-common-1.1.2.pom.sha512"
+    ]
+}
