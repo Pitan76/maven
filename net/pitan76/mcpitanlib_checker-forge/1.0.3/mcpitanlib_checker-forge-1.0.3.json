@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "mcpitanlib_checker-forge",
+    "version": "1.0.3",
+    "files": [
+        "mcpitanlib_checker-forge-1.0.3-sources.jar",
+        "mcpitanlib_checker-forge-1.0.3-sources.jar.md5",
+        "mcpitanlib_checker-forge-1.0.3-sources.jar.sha1",
+        "mcpitanlib_checker-forge-1.0.3-sources.jar.sha256",
+        "mcpitanlib_checker-forge-1.0.3-sources.jar.sha512",
+        "mcpitanlib_checker-forge-1.0.3.jar",
+        "mcpitanlib_checker-forge-1.0.3.jar.md5",
+        "mcpitanlib_checker-forge-1.0.3.jar.sha1",
+        "mcpitanlib_checker-forge-1.0.3.jar.sha256",
+        "mcpitanlib_checker-forge-1.0.3.jar.sha512",
+        "mcpitanlib_checker-forge-1.0.3.pom",
+        "mcpitanlib_checker-forge-1.0.3.pom.md5",
+        "mcpitanlib_checker-forge-1.0.3.pom.sha1",
+        "mcpitanlib_checker-forge-1.0.3.pom.sha256",
+        "mcpitanlib_checker-forge-1.0.3.pom.sha512"
+    ]
+}
