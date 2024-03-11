@@ -2,7 +2,7 @@
 // License: MIT
 // Author: Pitan
 
-define('DEFAULT_GROUP_ID', "ml.pkom");
+define('DEFAULT_GROUP_ID', "net.pitan76");
 define('DEFAULT_VERSION', "1.0.0");
 define('GENERATE_INDEX_HTML', true);
 define('AUTO_PUSH', true);
