@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "compatdatapacks76",
+    "version": "1.0.0",
+    "files": [
+        "compatdatapacks76-1.0.0-sources.jar",
+        "compatdatapacks76-1.0.0-sources.jar.md5",
+        "compatdatapacks76-1.0.0-sources.jar.sha1",
+        "compatdatapacks76-1.0.0-sources.jar.sha256",
+        "compatdatapacks76-1.0.0-sources.jar.sha512",
+        "compatdatapacks76-1.0.0.jar",
+        "compatdatapacks76-1.0.0.jar.md5",
+        "compatdatapacks76-1.0.0.jar.sha1",
+        "compatdatapacks76-1.0.0.jar.sha256",
+        "compatdatapacks76-1.0.0.jar.sha512",
+        "compatdatapacks76-1.0.0.pom",
+        "compatdatapacks76-1.0.0.pom.md5",
+        "compatdatapacks76-1.0.0.pom.sha1",
+        "compatdatapacks76-1.0.0.pom.sha256",
+        "compatdatapacks76-1.0.0.pom.sha512"
+    ]
+}
