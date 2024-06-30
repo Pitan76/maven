@@ -8,20 +8,6 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.pitan76</groupId>
-  <artifactId>compatdatapacks76-fabric</artifactId>
+  <artifactId>compatdatapacks76-neoforge</artifactId>
   <version>1.0.0</version>
-  <dependencies>
-    <dependency>
-      <groupId>net.fabricmc.fabric-api</groupId>
-      <artifactId>fabric-api</artifactId>
-      <version>0.100.4+1.21</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>net.fabricmc</groupId>
-      <artifactId>fabric-loader</artifactId>
-      <version>0.15.11</version>
-      <scope>runtime</scope>
-    </dependency>
-  </dependencies>
 </project>
