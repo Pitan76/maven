@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "compatdatapacks76-neoforge",
+    "version": "1.0.4.206",
+    "files": [
+        "compatdatapacks76-neoforge-1.0.4.206-sources.jar",
+        "compatdatapacks76-neoforge-1.0.4.206-sources.jar.md5",
+        "compatdatapacks76-neoforge-1.0.4.206-sources.jar.sha1",
+        "compatdatapacks76-neoforge-1.0.4.206-sources.jar.sha256",
+        "compatdatapacks76-neoforge-1.0.4.206-sources.jar.sha512",
+        "compatdatapacks76-neoforge-1.0.4.206.jar",
+        "compatdatapacks76-neoforge-1.0.4.206.jar.md5",
+        "compatdatapacks76-neoforge-1.0.4.206.jar.sha1",
+        "compatdatapacks76-neoforge-1.0.4.206.jar.sha256",
+        "compatdatapacks76-neoforge-1.0.4.206.jar.sha512",
+        "compatdatapacks76-neoforge-1.0.4.206.pom",
+        "compatdatapacks76-neoforge-1.0.4.206.pom.md5",
+        "compatdatapacks76-neoforge-1.0.4.206.pom.sha1",
+        "compatdatapacks76-neoforge-1.0.4.206.pom.sha256",
+        "compatdatapacks76-neoforge-1.0.4.206.pom.sha512"
+    ]
+}
