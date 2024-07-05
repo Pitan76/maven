@@ -3,15 +3,16 @@
   <groupId>net.pitan76</groupId>
   <artifactId>mcpitanlib-fabric+1.20.6</artifactId>
   <versioning>
-    <latest>2.2.9</latest>
-    <release>2.2.9</release>
+    <latest>2.3.0</latest>
+    <release>2.3.0</release>
     <versions>
       <version>2.2.5</version>
 <version>2.2.6</version>
 <version>2.2.7</version>
 <version>2.2.8</version>
 <version>2.2.9</version>
+<version>2.3.0</version>
     </versions>
-    <lastUpdated>20240630105935</lastUpdated>
+    <lastUpdated>20240705154103</lastUpdated>
   </versioning>
 </metadata>
