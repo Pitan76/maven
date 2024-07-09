@@ -76,7 +76,12 @@ function gen_hash_file($filename) {
 }
 
 if (isset($_POST['group_id']) && isset($_POST['artifact_id']) && isset($_POST['version']) && isset($_FILES['upload'])) {
+	if (AUTO_PUSH)
+		exec('git pull');
+
+
 	global $group_path, $artifact_id, $version;
+
 	$group_id = $_POST['group_id'];
 	$artifact_id = $_POST['artifact_id'];
 	$version = $_POST['version'];
