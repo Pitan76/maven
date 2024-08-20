@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "compatdatapacks76-forge",
+    "version": "1.0.7.210",
+    "files": [
+        "compatdatapacks76-forge-1.0.7.210-sources.jar",
+        "compatdatapacks76-forge-1.0.7.210-sources.jar.md5",
+        "compatdatapacks76-forge-1.0.7.210-sources.jar.sha1",
+        "compatdatapacks76-forge-1.0.7.210-sources.jar.sha256",
+        "compatdatapacks76-forge-1.0.7.210-sources.jar.sha512",
+        "compatdatapacks76-forge-1.0.7.210.jar",
+        "compatdatapacks76-forge-1.0.7.210.jar.md5",
+        "compatdatapacks76-forge-1.0.7.210.jar.sha1",
+        "compatdatapacks76-forge-1.0.7.210.jar.sha256",
+        "compatdatapacks76-forge-1.0.7.210.jar.sha512",
+        "compatdatapacks76-forge-1.0.7.210.pom",
+        "compatdatapacks76-forge-1.0.7.210.pom.md5",
+        "compatdatapacks76-forge-1.0.7.210.pom.sha1",
+        "compatdatapacks76-forge-1.0.7.210.pom.sha256",
+        "compatdatapacks76-forge-1.0.7.210.pom.sha512"
+    ]
+}
