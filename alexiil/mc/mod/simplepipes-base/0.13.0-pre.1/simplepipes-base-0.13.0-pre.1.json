@@ -1,0 +1,22 @@
+{
+    "group_id": "alexiil.mc.mod",
+    "artifact_id": "simplepipes-base",
+    "version": "0.13.0-pre.1",
+    "files": [
+        "simplepipes-base-0.13.0-pre.1-sources.jar",
+        "simplepipes-base-0.13.0-pre.1-sources.jar.md5",
+        "simplepipes-base-0.13.0-pre.1-sources.jar.sha1",
+        "simplepipes-base-0.13.0-pre.1-sources.jar.sha256",
+        "simplepipes-base-0.13.0-pre.1-sources.jar.sha512",
+        "simplepipes-base-0.13.0-pre.1.jar",
+        "simplepipes-base-0.13.0-pre.1.jar.md5",
+        "simplepipes-base-0.13.0-pre.1.jar.sha1",
+        "simplepipes-base-0.13.0-pre.1.jar.sha256",
+        "simplepipes-base-0.13.0-pre.1.jar.sha512",
+        "simplepipes-base-0.13.0-pre.1.pom",
+        "simplepipes-base-0.13.0-pre.1.pom.md5",
+        "simplepipes-base-0.13.0-pre.1.pom.sha1",
+        "simplepipes-base-0.13.0-pre.1.pom.sha256",
+        "simplepipes-base-0.13.0-pre.1.pom.sha512"
+    ]
+}
