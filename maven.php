@@ -7,6 +7,7 @@ define('DEFAULT_VERSION', "1.0.0");
 define('GENERATE_INDEX_HTML', true);
 define('AUTO_PUSH', true);
 define('NODISPLAY_FILE', array('index.html', 'maven.php', 'CNAME', 'mcpitanlibarch.php'));
+define('NODISPLAY_DIR', array('v'));
 
 $DEFAULT_GROUP_ID = DEFAULT_GROUP_ID;
 $DEFAULT_VERSION = DEFAULT_VERSION;
@@ -41,6 +42,9 @@ function gen_dirlist_html($dir = ".", $regen = false) {
 			$c = 1;
 		}
 		if (is_dir($value)) {
+			if (in_array($filename, NODISPLAY_DIR))
+				continue;
+			
 			$links .= '<a href="./' . $filename . '/">' . $displayname . '/</a>' . str_repeat(" ", $c - 1) . date("d-M-Y H:i", filemtime($value)) . "                   -\n";
 			if (isset($_GET['genindex']) || (strpos($group_path . "/" . $artifact_id . "/" . $version, $filename) !== false)) {
 				gen_dirlist_html($value);

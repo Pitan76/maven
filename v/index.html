@@ -1,0 +1,244 @@
+<!--
+../のhtmlの例
+
+<html>
+	<head>
+		<title>Index of /</title>
+	</head>
+	<body>
+		<h1>Index of /</h1>
+		<hr>
+		<pre><a href="../">../</a>
+<a href="./alexiil/">alexiil/</a>                                           05-Jul-2024 14:45                   -
+<a href="./com/">com/</a>                                               05-Jul-2024 14:45                   -
+<a href="./dev/">dev/</a>                                               05-Jul-2024 14:45                   -
+<a href="./io/">io/</a>                                                05-Jul-2024 14:45                   -
+<a href="./me/">me/</a>                                                05-Jul-2024 14:45                   -
+<a href="./ml/">ml/</a>                                                05-Jul-2024 14:45                   -
+<a href="./net/">net/</a>                                               05-Jul-2024 14:52                   -</pre>
+		<hr>
+	</body>
+</html>
+
+-->
+
+<html>
+    <head>
+        <title>Maven Repo Viewer</title>
+        <!-- 今どきのスタイル -->
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            table {
+                background-color: #f9f9f9;
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                padding: 5px;
+                width: 100%;
+            }
+            th {
+                text-align: left;
+            }
+            th, td {
+                padding: 5px;
+            }
+            th:nth-child(2), td:nth-child(2) {
+                text-align: right;
+            }
+            a {
+                text-decoration: none;
+            }
+            pre {
+                background-color: #f9f9f9;
+                border: 1px solid #ccc;
+                padding: 5px;
+
+                white-space: pre-wrap;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Maven Repo Viewer</h1>
+        <!-- 左右2つに分割して左にIndex of / 右にリポジトリ情報の表示 (Gradle/Mavenコピー用) -->
+        
+        <!-- 左側 -->
+         <!-- JavaScriptで../のデータを取得して一覧表示 -->
+        <div style="float: left; width: 58%;">
+            <h2 id="path">Index of /</h2>
+            <div id="index"></div>
+            <hr>
+        </div>
+
+        <!-- 右側 -->
+        <div style="float: right; width: 40%;">
+            <h2>Repository Info</h2>
+            <h3>Gradle Kotlin</h3>
+            <pre id="gradle_kotlin"></pre>
+
+            <h3>Gradle Groovy</h3>
+            <pre id="gradle_groovy"></pre>
+
+            <h3>Maven</h3>
+            <pre id="maven"></pre>
+            
+
+            <hr>
+        </div>
+
+        <script>
+            var $dir = "";
+            if (window.location.hash) {
+                $dir = window.location.hash.substring(1);
+                if (!$dir.endsWith("/")) {
+                    window.location.hash = $dir + "/";
+                }
+            }
+            window.onhashchange = () => {
+                $dir = window.location.hash.substring(1);
+                viewList($dir);
+                viewRepo($dir);
+            };
+
+            function formatDate(rawDate) {
+                const date = new Date(rawDate);
+                return date.toLocaleDateString() + " " + date.toLocaleTimeString();
+            }
+
+            function viewList(dir) {
+                document.getElementById("index").innerHTML = "";
+
+                const path = document.getElementById("path");
+                path.innerHTML = "Index of /" + dir;
+                
+                const paths = dir.split("/");
+                if (paths.length > 1) {
+                    path.innerHTML = "<a href=''>Index of</a>" + " / " + paths.map((p, i) => {
+                        if (i === paths.length - 2) {
+                            return p;
+                        }
+                        return "<a href='#" + paths.slice(0, i + 1).join("/") + "/'>" + p + "</a>";
+                    }).join(" / ");
+                }
+
+                fetch("../" + dir)
+                    .then(response => response.text())
+                    .then(text => {
+                        const lines = text.split("\n");
+                        const table = document.createElement("table");
+                        for (const line of lines) {
+                            const match = line.match(/<a href="([^"]+)">([^<]+)<\/a>\s+(\d{2}-\w{3}-\d{4} \d{2}:\d{2})/);
+                            if (match) {
+                                const a = document.createElement("a");
+
+                                if (match[1].startsWith("./"))
+                                    match[1] = match[1].replace("./", "");
+                                
+                                if (match[1].endsWith("/")) {
+                                    a.href = "#" + dir + match[1];
+                                } else {
+                                    a.href = "../" + dir + match[1];
+                                }
+                                a.textContent = match[2];
+                                const tr = document.createElement("tr");
+                                const td1 = document.createElement("td");
+                                td1.appendChild(a);
+                                tr.appendChild(td1);
+                                const td2 = document.createElement("td");
+                                td2.textContent = formatDate(match[3]);
+
+                                tr.appendChild(td2);
+                                table.appendChild(tr);
+                            }
+                        }
+                        document.getElementById("index").appendChild(table);
+                    });
+            }
+
+            function viewRepo(dir) {
+                fetch("../" + dir)
+                    .then(response => response.text())
+                    .then(text => {
+                        const lines = text.split("\n");
+
+                        const gradle_kotlin = document.getElementById("gradle_kotlin");
+                        gradle_kotlin.innerHTML = "";
+
+                        const gradle_groovy = document.getElementById("gradle_groovy");
+                        gradle_groovy.innerHTML = "";
+
+                        const maven = document.getElementById("maven");
+                        maven.innerHTML = "";
+
+                        let pom = "";
+                        for (const line of lines) {
+                            if (line.includes("pom")) {
+                                const match = line.match(/<a href="\.\/([^"]+)">.+?\.pom<\/a>/);
+                                pom = match[1];
+                                break;
+                            }
+                        }
+                        if (pom) {
+                            fetch("../" + dir + pom)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const parser = new DOMParser();
+                                    const doc = parser.parseFromString(text, "application/xml");
+                                    const groupId = doc.querySelector("groupId").textContent;
+                                    const artifactId = doc.querySelector("artifactId").textContent;
+                                    const version = doc.querySelector("version").textContent;
+
+                                    const dependencies = Array.from(doc.querySelectorAll("dependency")).map(dep => {
+                                        const groupId = dep.querySelector("groupId").textContent;
+                                        const artifactId = dep.querySelector("artifactId").textContent;
+                                        const version = dep.querySelector("version").textContent;
+                                        if (dep.querySelector("scope")?.textContent === "runtime") {
+                                            return "";
+                                        }
+                                        
+                                        return `${groupId}:${artifactId}:${version}"`;
+                                    });
+
+                                    gradle_kotlin.textContent = `implementation("${groupId}:${artifactId}:${version}")`;
+                                    
+                                    gradle_groovy.textContent = `implementation "${groupId}:${artifactId}:${version}"`;
+
+                                    maven.textContent = `<dependency>\n    <groupId>${groupId}</groupId>\n    <artifactId>${artifactId}</artifactId>\n    <version>${version}</version>\n</dependency>`;
+                                });
+                        } else {
+                            gradle_kotlin.textContent = "maven {\n" +
+                                "    name = \"PitanNET\"\n" +
+                                "    url = uri(\"https://maven.pitan76.net/\")\n" +
+                                "}\n";
+
+                            gradle_groovy.textContent = "maven {\n" +
+                                "    name \"PitanNET\"\n" +
+                                "    url \"https://maven.pitan76.net/\"\n" +
+                                "}";
+                            
+                            maven.textContent = "<repository>\n" +
+                                "    <id>pitan-net</id>\n" +
+                                "    <name>PitanNET</name>\n" +
+                                "    <url>https://maven.pitan76.net/</url>\n" +
+                                "</repository>";
+                        }
+                    });
+            }
+
+            fetch("../")
+                .then(response => response.text())
+                .then(text => {
+                    viewList($dir);
+                    viewRepo($dir);
+                });
+
+            
+
+           
+        </script>
+
+        <div style="clear: both;"></div>
+        Raw: <a href="../">Index of /</a><br />
+        Developer: <a href="https://pitan76.net/">Pitan</a>
+    </body>
+</html>
