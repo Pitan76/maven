@@ -1,31 +1,6 @@
-<!--
-../のhtmlの例
-
-<html>
-	<head>
-		<title>Index of /</title>
-	</head>
-	<body>
-		<h1>Index of /</h1>
-		<hr>
-		<pre><a href="../">../</a>
-<a href="./alexiil/">alexiil/</a>                                           05-Jul-2024 14:45                   -
-<a href="./com/">com/</a>                                               05-Jul-2024 14:45                   -
-<a href="./dev/">dev/</a>                                               05-Jul-2024 14:45                   -
-<a href="./io/">io/</a>                                                05-Jul-2024 14:45                   -
-<a href="./me/">me/</a>                                                05-Jul-2024 14:45                   -
-<a href="./ml/">ml/</a>                                                05-Jul-2024 14:45                   -
-<a href="./net/">net/</a>                                               05-Jul-2024 14:52                   -</pre>
-		<hr>
-	</body>
-</html>
-
--->
-
 <html>
     <head>
         <title>Maven Repo Viewer</title>
-        <!-- 今どきのスタイル -->
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -60,17 +35,12 @@
     </head>
     <body>
         <h1>Maven Repo Viewer</h1>
-        <!-- 左右2つに分割して左にIndex of / 右にリポジトリ情報の表示 (Gradle/Mavenコピー用) -->
-        
-        <!-- 左側 -->
-         <!-- JavaScriptで../のデータを取得して一覧表示 -->
         <div style="float: left; width: 58%;">
             <h2 id="path">Index of /</h2>
             <div id="index"></div>
             <hr>
         </div>
 
-        <!-- 右側 -->
         <div style="float: right; width: 40%;">
             <h2>Repository Info</h2>
             <h3>Gradle Kotlin</h3>
