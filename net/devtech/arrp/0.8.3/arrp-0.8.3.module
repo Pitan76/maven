@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.devtech",
+    "module": "arrp",
+    "version": "0.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "arrp-0.8.3.jar",
+          "url": "arrp-0.8.3.jar",
+          "size": 156499,
+          "sha512": "569b3ba7df9ab6fb16c17de54a3e6fdfce6b4cf0cd1b09e418aa7f1b6a2912781612cf9d6f3230d53d976b62baba7bf87352b8c193dff86b2e2c27d0b4d924b8",
+          "sha256": "7352677c062ee3a9073a292bfe81bdf49cb2b26daaf254bf121d5787def64a39",
+          "sha1": "d2925f055b6ed609929636455b7798b5ca1ec47f",
+          "md5": "b6a8759f3dc7f8d6ee04227e78d3fd97"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "0.4.42+6573ed8c19"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arrp-0.8.3.jar",
+          "url": "arrp-0.8.3.jar",
+          "size": 156499,
+          "sha512": "569b3ba7df9ab6fb16c17de54a3e6fdfce6b4cf0cd1b09e418aa7f1b6a2912781612cf9d6f3230d53d976b62baba7bf87352b8c193dff86b2e2c27d0b4d924b8",
+          "sha256": "7352677c062ee3a9073a292bfe81bdf49cb2b26daaf254bf121d5787def64a39",
+          "sha1": "d2925f055b6ed609929636455b7798b5ca1ec47f",
+          "md5": "b6a8759f3dc7f8d6ee04227e78d3fd97"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "arrp-0.8.3-sources.jar",
+          "url": "arrp-0.8.3-sources.jar",
+          "size": 76164,
+          "sha512": "92238f921342967fe421bb615cf559aa9445821c222c05261024058a57d6bd0587921b57a6affb02c2a7871c5da0db8ed08d1dc38fc6286bffe73d154de98b9d",
+          "sha256": "161627df9d655de8ba17a99d8691ad39561a40277306dcfa3740666b29c19047",
+          "sha1": "062a6025fb3169fc6ea66cf6f8ac2da83c498786",
+          "md5": "e4ef5889160fa49c44b1652c093d367a"
+        }
+      ]
+    }
+  ]
+}

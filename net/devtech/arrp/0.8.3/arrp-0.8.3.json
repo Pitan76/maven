@@ -1,0 +1,27 @@
+{
+    "group_id": "net.devtech",
+    "artifact_id": "arrp",
+    "version": "0.8.3",
+    "files": [
+        "arrp-0.8.3-sources.jar",
+        "arrp-0.8.3-sources.jar.md5",
+        "arrp-0.8.3-sources.jar.sha1",
+        "arrp-0.8.3-sources.jar.sha256",
+        "arrp-0.8.3-sources.jar.sha512",
+        "arrp-0.8.3.jar",
+        "arrp-0.8.3.jar.md5",
+        "arrp-0.8.3.jar.sha1",
+        "arrp-0.8.3.jar.sha256",
+        "arrp-0.8.3.jar.sha512",
+        "arrp-0.8.3.module",
+        "arrp-0.8.3.module.md5",
+        "arrp-0.8.3.module.sha1",
+        "arrp-0.8.3.module.sha256",
+        "arrp-0.8.3.module.sha512",
+        "arrp-0.8.3.pom",
+        "arrp-0.8.3.pom.md5",
+        "arrp-0.8.3.pom.sha1",
+        "arrp-0.8.3.pom.sha256",
+        "arrp-0.8.3.pom.sha512"
+    ]
+}
