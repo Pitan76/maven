@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "mcpitanlib-forge+1.19.2",
+    "version": "2.4.3",
+    "files": [
+        "mcpitanlib-forge+1.19.2-2.4.3-sources.jar",
+        "mcpitanlib-forge+1.19.2-2.4.3-sources.jar.md5",
+        "mcpitanlib-forge+1.19.2-2.4.3-sources.jar.sha1",
+        "mcpitanlib-forge+1.19.2-2.4.3-sources.jar.sha256",
+        "mcpitanlib-forge+1.19.2-2.4.3-sources.jar.sha512",
+        "mcpitanlib-forge+1.19.2-2.4.3.jar",
+        "mcpitanlib-forge+1.19.2-2.4.3.jar.md5",
+        "mcpitanlib-forge+1.19.2-2.4.3.jar.sha1",
+        "mcpitanlib-forge+1.19.2-2.4.3.jar.sha256",
+        "mcpitanlib-forge+1.19.2-2.4.3.jar.sha512",
+        "mcpitanlib-forge+1.19.2-2.4.3.pom",
+        "mcpitanlib-forge+1.19.2-2.4.3.pom.md5",
+        "mcpitanlib-forge+1.19.2-2.4.3.pom.sha1",
+        "mcpitanlib-forge+1.19.2-2.4.3.pom.sha256",
+        "mcpitanlib-forge+1.19.2-2.4.3.pom.sha512"
+    ]
+}
