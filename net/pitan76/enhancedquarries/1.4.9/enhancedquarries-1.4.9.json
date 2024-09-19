@@ -1,22 +1,22 @@
 {
     "group_id": "net.pitan76",
-    "artifact_id": "enhancedquarries",
+    "artifact_id": "EnhancedQuarries",
     "version": "1.4.9",
     "files": [
-        "enhancedquarries-1.4.9-sources.jar",
-        "enhancedquarries-1.4.9-sources.jar.md5",
-        "enhancedquarries-1.4.9-sources.jar.sha1",
-        "enhancedquarries-1.4.9-sources.jar.sha256",
-        "enhancedquarries-1.4.9-sources.jar.sha512",
-        "enhancedquarries-1.4.9.jar",
-        "enhancedquarries-1.4.9.jar.md5",
-        "enhancedquarries-1.4.9.jar.sha1",
-        "enhancedquarries-1.4.9.jar.sha256",
-        "enhancedquarries-1.4.9.jar.sha512",
-        "enhancedquarries-1.4.9.pom",
-        "enhancedquarries-1.4.9.pom.md5",
-        "enhancedquarries-1.4.9.pom.sha1",
-        "enhancedquarries-1.4.9.pom.sha256",
-        "enhancedquarries-1.4.9.pom.sha512"
+        "EnhancedQuarries-1.4.9-sources.jar",
+        "EnhancedQuarries-1.4.9-sources.jar.md5",
+        "EnhancedQuarries-1.4.9-sources.jar.sha1",
+        "EnhancedQuarries-1.4.9-sources.jar.sha256",
+        "EnhancedQuarries-1.4.9-sources.jar.sha512",
+        "EnhancedQuarries-1.4.9.jar",
+        "EnhancedQuarries-1.4.9.jar.md5",
+        "EnhancedQuarries-1.4.9.jar.sha1",
+        "EnhancedQuarries-1.4.9.jar.sha256",
+        "EnhancedQuarries-1.4.9.jar.sha512",
+        "EnhancedQuarries-1.4.9.pom",
+        "EnhancedQuarries-1.4.9.pom.md5",
+        "EnhancedQuarries-1.4.9.pom.sha1",
+        "EnhancedQuarries-1.4.9.pom.sha256",
+        "EnhancedQuarries-1.4.9.pom.sha512"
     ]
 }
