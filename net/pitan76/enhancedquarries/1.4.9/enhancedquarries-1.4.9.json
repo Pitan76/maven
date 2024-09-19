@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "enhancedquarries",
+    "version": "1.4.9",
+    "files": [
+        "enhancedquarries-1.4.9-sources.jar",
+        "enhancedquarries-1.4.9-sources.jar.md5",
+        "enhancedquarries-1.4.9-sources.jar.sha1",
+        "enhancedquarries-1.4.9-sources.jar.sha256",
+        "enhancedquarries-1.4.9-sources.jar.sha512",
+        "enhancedquarries-1.4.9.jar",
+        "enhancedquarries-1.4.9.jar.md5",
+        "enhancedquarries-1.4.9.jar.sha1",
+        "enhancedquarries-1.4.9.jar.sha256",
+        "enhancedquarries-1.4.9.jar.sha512",
+        "enhancedquarries-1.4.9.pom",
+        "enhancedquarries-1.4.9.pom.md5",
+        "enhancedquarries-1.4.9.pom.sha1",
+        "enhancedquarries-1.4.9.pom.sha256",
+        "enhancedquarries-1.4.9.pom.sha512"
+    ]
+}
