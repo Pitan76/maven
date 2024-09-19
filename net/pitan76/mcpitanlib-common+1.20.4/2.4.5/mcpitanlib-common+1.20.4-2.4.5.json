@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "mcpitanlib-common+1.20.4",
+    "version": "2.4.5",
+    "files": [
+        "mcpitanlib-common+1.20.4-2.4.5-sources.jar",
+        "mcpitanlib-common+1.20.4-2.4.5-sources.jar.md5",
+        "mcpitanlib-common+1.20.4-2.4.5-sources.jar.sha1",
+        "mcpitanlib-common+1.20.4-2.4.5-sources.jar.sha256",
+        "mcpitanlib-common+1.20.4-2.4.5-sources.jar.sha512",
+        "mcpitanlib-common+1.20.4-2.4.5.jar",
+        "mcpitanlib-common+1.20.4-2.4.5.jar.md5",
+        "mcpitanlib-common+1.20.4-2.4.5.jar.sha1",
+        "mcpitanlib-common+1.20.4-2.4.5.jar.sha256",
+        "mcpitanlib-common+1.20.4-2.4.5.jar.sha512",
+        "mcpitanlib-common+1.20.4-2.4.5.pom",
+        "mcpitanlib-common+1.20.4-2.4.5.pom.md5",
+        "mcpitanlib-common+1.20.4-2.4.5.pom.sha1",
+        "mcpitanlib-common+1.20.4-2.4.5.pom.sha256",
+        "mcpitanlib-common+1.20.4-2.4.5.pom.sha512"
+    ]
+}
