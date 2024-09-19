@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "itemalchemy",
+    "version": "1.0.0",
+    "files": [
+        "itemalchemy-1.0.0-sources.jar",
+        "itemalchemy-1.0.0-sources.jar.md5",
+        "itemalchemy-1.0.0-sources.jar.sha1",
+        "itemalchemy-1.0.0-sources.jar.sha256",
+        "itemalchemy-1.0.0-sources.jar.sha512",
+        "itemalchemy-1.0.0.jar",
+        "itemalchemy-1.0.0.jar.md5",
+        "itemalchemy-1.0.0.jar.sha1",
+        "itemalchemy-1.0.0.jar.sha256",
+        "itemalchemy-1.0.0.jar.sha512",
+        "itemalchemy-1.0.0.pom",
+        "itemalchemy-1.0.0.pom.md5",
+        "itemalchemy-1.0.0.pom.sha1",
+        "itemalchemy-1.0.0.pom.sha256",
+        "itemalchemy-1.0.0.pom.sha512"
+    ]
+}
