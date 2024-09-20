@@ -1,0 +1,22 @@
+{
+    "group_id": "abused_master.abusedlib",
+    "artifact_id": "AbusedLib",
+    "version": "1.3.1",
+    "files": [
+        "AbusedLib-1.3.1-sources.jar",
+        "AbusedLib-1.3.1-sources.jar.md5",
+        "AbusedLib-1.3.1-sources.jar.sha1",
+        "AbusedLib-1.3.1-sources.jar.sha256",
+        "AbusedLib-1.3.1-sources.jar.sha512",
+        "AbusedLib-1.3.1.jar",
+        "AbusedLib-1.3.1.jar.md5",
+        "AbusedLib-1.3.1.jar.sha1",
+        "AbusedLib-1.3.1.jar.sha256",
+        "AbusedLib-1.3.1.jar.sha512",
+        "AbusedLib-1.3.1.pom",
+        "AbusedLib-1.3.1.pom.md5",
+        "AbusedLib-1.3.1.pom.sha1",
+        "AbusedLib-1.3.1.pom.sha256",
+        "AbusedLib-1.3.1.pom.sha512"
+    ]
+}
