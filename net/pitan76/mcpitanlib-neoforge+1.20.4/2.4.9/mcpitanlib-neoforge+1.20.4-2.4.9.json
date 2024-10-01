@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "mcpitanlib-neoforge+1.20.4",
+    "version": "2.4.9",
+    "files": [
+        "mcpitanlib-neoforge+1.20.4-2.4.9-sources.jar",
+        "mcpitanlib-neoforge+1.20.4-2.4.9-sources.jar.md5",
+        "mcpitanlib-neoforge+1.20.4-2.4.9-sources.jar.sha1",
+        "mcpitanlib-neoforge+1.20.4-2.4.9-sources.jar.sha256",
+        "mcpitanlib-neoforge+1.20.4-2.4.9-sources.jar.sha512",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.jar",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.jar.md5",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.jar.sha1",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.jar.sha256",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.jar.sha512",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.pom",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.pom.md5",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.pom.sha1",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.pom.sha256",
+        "mcpitanlib-neoforge+1.20.4-2.4.9.pom.sha512"
+    ]
+}
