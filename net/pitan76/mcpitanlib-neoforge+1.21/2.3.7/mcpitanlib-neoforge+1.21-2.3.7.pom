@@ -9,18 +9,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.pitan76</groupId>
   <artifactId>mcpitanlib-neoforge+1.21</artifactId>
-  <version>2.3.7</version>
+  <version>2.4.9-1.21-neoforge</version>
   <dependencies>
     <dependency>
       <groupId>dev.architectury</groupId>
       <artifactId>architectury-neoforge</artifactId>
       <version>13.0.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>me.shedaniel.cloth</groupId>
-      <artifactId>cloth-config-neoforge</artifactId>
-      <version>15.0.127</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
