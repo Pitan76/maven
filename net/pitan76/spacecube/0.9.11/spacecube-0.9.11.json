@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "spacecube",
+    "version": "0.9.11",
+    "files": [
+        "spacecube-0.9.11-sources.jar",
+        "spacecube-0.9.11-sources.jar.md5",
+        "spacecube-0.9.11-sources.jar.sha1",
+        "spacecube-0.9.11-sources.jar.sha256",
+        "spacecube-0.9.11-sources.jar.sha512",
+        "spacecube-0.9.11.jar",
+        "spacecube-0.9.11.jar.md5",
+        "spacecube-0.9.11.jar.sha1",
+        "spacecube-0.9.11.jar.sha256",
+        "spacecube-0.9.11.jar.sha512",
+        "spacecube-0.9.11.pom",
+        "spacecube-0.9.11.pom.md5",
+        "spacecube-0.9.11.pom.sha1",
+        "spacecube-0.9.11.pom.sha256",
+        "spacecube-0.9.11.pom.sha512"
+    ]
+}
