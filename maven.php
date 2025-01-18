@@ -1,4 +1,5 @@
 <?php
+// Maven Repository Generator v1.1
 // License: MIT
 // Author: Pitan
 
