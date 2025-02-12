@@ -3,8 +3,8 @@
   <groupId>net.pitan76</groupId>
   <artifactId>mcpitanlib-common+1.21.1</artifactId>
   <versioning>
-    <latest>3.1.5</latest>
-    <release>3.1.5</release>
+    <latest>3.1.6</latest>
+    <release>3.1.6</release>
     <versions>
       <version>3.0.2</version>
 <version>3.0.3</version>
@@ -18,7 +18,8 @@
 <version>3.1.3</version>
 <version>3.1.4</version>
 <version>3.1.5</version>
+<version>3.1.6</version>
     </versions>
-    <lastUpdated>20250205121417</lastUpdated>
+    <lastUpdated>20250212070758</lastUpdated>
   </versioning>
 </metadata>
