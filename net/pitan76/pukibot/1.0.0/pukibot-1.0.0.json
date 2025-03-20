@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "pukibot",
+    "version": "1.0.0",
+    "files": [
+        "pom-default.xml",
+        "pom-default.xml.md5",
+        "pom-default.xml.sha1",
+        "pom-default.xml.sha256",
+        "pom-default.xml.sha512",
+        "pukibot-1.0.0.jar",
+        "pukibot-1.0.0.jar.md5",
+        "pukibot-1.0.0.jar.sha1",
+        "pukibot-1.0.0.jar.sha256",
+        "pukibot-1.0.0.jar.sha512",
+        "pukibot-1.0.0.pom",
+        "pukibot-1.0.0.pom.md5",
+        "pukibot-1.0.0.pom.sha1",
+        "pukibot-1.0.0.pom.sha256",
+        "pukibot-1.0.0.pom.sha512"
+    ]
+}
