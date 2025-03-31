@@ -3,11 +3,12 @@
   <groupId>net.pitan76</groupId>
   <artifactId>legacyitemmodels-fabric</artifactId>
   <versioning>
-    <latest>1.0.0.214</latest>
-    <release>1.0.0.214</release>
+    <latest>1.0.1.214</latest>
+    <release>1.0.1.214</release>
     <versions>
       <version>1.0.0.214</version>
+<version>1.0.1.214</version>
     </versions>
-    <lastUpdated>20250331110134</lastUpdated>
+    <lastUpdated>20250331145820</lastUpdated>
   </versioning>
 </metadata>
