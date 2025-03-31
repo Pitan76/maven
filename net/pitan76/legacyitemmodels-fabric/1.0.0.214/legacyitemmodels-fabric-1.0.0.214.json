@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "legacyitemmodels-fabric",
+    "version": "1.0.0.214",
+    "files": [
+        "legacyitemmodels-fabric-1.0.0.214-sources.jar",
+        "legacyitemmodels-fabric-1.0.0.214-sources.jar.md5",
+        "legacyitemmodels-fabric-1.0.0.214-sources.jar.sha1",
+        "legacyitemmodels-fabric-1.0.0.214-sources.jar.sha256",
+        "legacyitemmodels-fabric-1.0.0.214-sources.jar.sha512",
+        "legacyitemmodels-fabric-1.0.0.214.jar",
+        "legacyitemmodels-fabric-1.0.0.214.jar.md5",
+        "legacyitemmodels-fabric-1.0.0.214.jar.sha1",
+        "legacyitemmodels-fabric-1.0.0.214.jar.sha256",
+        "legacyitemmodels-fabric-1.0.0.214.jar.sha512",
+        "legacyitemmodels-fabric-1.0.0.214.pom",
+        "legacyitemmodels-fabric-1.0.0.214.pom.md5",
+        "legacyitemmodels-fabric-1.0.0.214.pom.sha1",
+        "legacyitemmodels-fabric-1.0.0.214.pom.sha256",
+        "legacyitemmodels-fabric-1.0.0.214.pom.sha512"
+    ]
+}
