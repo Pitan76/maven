@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "legacyitemmodels-neoforge",
+    "version": "1.0.0.214",
+    "files": [
+        "legacyitemmodels-neoforge-1.0.0.214-sources.jar",
+        "legacyitemmodels-neoforge-1.0.0.214-sources.jar.md5",
+        "legacyitemmodels-neoforge-1.0.0.214-sources.jar.sha1",
+        "legacyitemmodels-neoforge-1.0.0.214-sources.jar.sha256",
+        "legacyitemmodels-neoforge-1.0.0.214-sources.jar.sha512",
+        "legacyitemmodels-neoforge-1.0.0.214.jar",
+        "legacyitemmodels-neoforge-1.0.0.214.jar.md5",
+        "legacyitemmodels-neoforge-1.0.0.214.jar.sha1",
+        "legacyitemmodels-neoforge-1.0.0.214.jar.sha256",
+        "legacyitemmodels-neoforge-1.0.0.214.jar.sha512",
+        "legacyitemmodels-neoforge-1.0.0.214.pom",
+        "legacyitemmodels-neoforge-1.0.0.214.pom.md5",
+        "legacyitemmodels-neoforge-1.0.0.214.pom.sha1",
+        "legacyitemmodels-neoforge-1.0.0.214.pom.sha256",
+        "legacyitemmodels-neoforge-1.0.0.214.pom.sha512"
+    ]
+}
