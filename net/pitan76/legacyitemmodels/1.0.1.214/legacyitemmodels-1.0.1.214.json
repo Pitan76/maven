@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "legacyitemmodels",
+    "version": "1.0.1.214",
+    "files": [
+        "legacyitemmodels-1.0.1.214-sources.jar",
+        "legacyitemmodels-1.0.1.214-sources.jar.md5",
+        "legacyitemmodels-1.0.1.214-sources.jar.sha1",
+        "legacyitemmodels-1.0.1.214-sources.jar.sha256",
+        "legacyitemmodels-1.0.1.214-sources.jar.sha512",
+        "legacyitemmodels-1.0.1.214.jar",
+        "legacyitemmodels-1.0.1.214.jar.md5",
+        "legacyitemmodels-1.0.1.214.jar.sha1",
+        "legacyitemmodels-1.0.1.214.jar.sha256",
+        "legacyitemmodels-1.0.1.214.jar.sha512",
+        "legacyitemmodels-1.0.1.214.pom",
+        "legacyitemmodels-1.0.1.214.pom.md5",
+        "legacyitemmodels-1.0.1.214.pom.sha1",
+        "legacyitemmodels-1.0.1.214.pom.sha256",
+        "legacyitemmodels-1.0.1.214.pom.sha512"
+    ]
+}
