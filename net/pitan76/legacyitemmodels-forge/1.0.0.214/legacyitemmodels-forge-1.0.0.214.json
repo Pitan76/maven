@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "legacyitemmodels-forge",
+    "version": "1.0.0.214",
+    "files": [
+        "legacyitemmodels-forge-1.0.0.214-sources.jar",
+        "legacyitemmodels-forge-1.0.0.214-sources.jar.md5",
+        "legacyitemmodels-forge-1.0.0.214-sources.jar.sha1",
+        "legacyitemmodels-forge-1.0.0.214-sources.jar.sha256",
+        "legacyitemmodels-forge-1.0.0.214-sources.jar.sha512",
+        "legacyitemmodels-forge-1.0.0.214.jar",
+        "legacyitemmodels-forge-1.0.0.214.jar.md5",
+        "legacyitemmodels-forge-1.0.0.214.jar.sha1",
+        "legacyitemmodels-forge-1.0.0.214.jar.sha256",
+        "legacyitemmodels-forge-1.0.0.214.jar.sha512",
+        "legacyitemmodels-forge-1.0.0.214.pom",
+        "legacyitemmodels-forge-1.0.0.214.pom.md5",
+        "legacyitemmodels-forge-1.0.0.214.pom.sha1",
+        "legacyitemmodels-forge-1.0.0.214.pom.sha256",
+        "legacyitemmodels-forge-1.0.0.214.pom.sha512"
+    ]
+}
