@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "smallstairs-forge",
+    "version": "1.2.1",
+    "files": [
+        "smallstairs-forge-1.2.1-sources.jar",
+        "smallstairs-forge-1.2.1-sources.jar.md5",
+        "smallstairs-forge-1.2.1-sources.jar.sha1",
+        "smallstairs-forge-1.2.1-sources.jar.sha256",
+        "smallstairs-forge-1.2.1-sources.jar.sha512",
+        "smallstairs-forge-1.2.1.jar",
+        "smallstairs-forge-1.2.1.jar.md5",
+        "smallstairs-forge-1.2.1.jar.sha1",
+        "smallstairs-forge-1.2.1.jar.sha256",
+        "smallstairs-forge-1.2.1.jar.sha512",
+        "smallstairs-forge-1.2.1.pom",
+        "smallstairs-forge-1.2.1.pom.md5",
+        "smallstairs-forge-1.2.1.pom.sha1",
+        "smallstairs-forge-1.2.1.pom.sha256",
+        "smallstairs-forge-1.2.1.pom.sha512"
+    ]
+}
