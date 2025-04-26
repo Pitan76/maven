@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "mcpitanlib-fabric+1.21.1",
+    "version": "3.2.5",
+    "files": [
+        "mcpitanlib-fabric+1.21.1-3.2.5-sources.jar",
+        "mcpitanlib-fabric+1.21.1-3.2.5-sources.jar.md5",
+        "mcpitanlib-fabric+1.21.1-3.2.5-sources.jar.sha1",
+        "mcpitanlib-fabric+1.21.1-3.2.5-sources.jar.sha256",
+        "mcpitanlib-fabric+1.21.1-3.2.5-sources.jar.sha512",
+        "mcpitanlib-fabric+1.21.1-3.2.5.jar",
+        "mcpitanlib-fabric+1.21.1-3.2.5.jar.md5",
+        "mcpitanlib-fabric+1.21.1-3.2.5.jar.sha1",
+        "mcpitanlib-fabric+1.21.1-3.2.5.jar.sha256",
+        "mcpitanlib-fabric+1.21.1-3.2.5.jar.sha512",
+        "mcpitanlib-fabric+1.21.1-3.2.5.pom",
+        "mcpitanlib-fabric+1.21.1-3.2.5.pom.md5",
+        "mcpitanlib-fabric+1.21.1-3.2.5.pom.sha1",
+        "mcpitanlib-fabric+1.21.1-3.2.5.pom.sha256",
+        "mcpitanlib-fabric+1.21.1-3.2.5.pom.sha512"
+    ]
+}
