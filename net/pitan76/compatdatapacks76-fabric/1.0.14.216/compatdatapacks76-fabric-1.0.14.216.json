@@ -1,0 +1,22 @@
+{
+    "group_id": "net.pitan76",
+    "artifact_id": "compatdatapacks76-fabric",
+    "version": "1.0.14.216",
+    "files": [
+        "compatdatapacks76-fabric-1.0.14.216-sources.jar",
+        "compatdatapacks76-fabric-1.0.14.216-sources.jar.md5",
+        "compatdatapacks76-fabric-1.0.14.216-sources.jar.sha1",
+        "compatdatapacks76-fabric-1.0.14.216-sources.jar.sha256",
+        "compatdatapacks76-fabric-1.0.14.216-sources.jar.sha512",
+        "compatdatapacks76-fabric-1.0.14.216.jar",
+        "compatdatapacks76-fabric-1.0.14.216.jar.md5",
+        "compatdatapacks76-fabric-1.0.14.216.jar.sha1",
+        "compatdatapacks76-fabric-1.0.14.216.jar.sha256",
+        "compatdatapacks76-fabric-1.0.14.216.jar.sha512",
+        "compatdatapacks76-fabric-1.0.14.216.pom",
+        "compatdatapacks76-fabric-1.0.14.216.pom.md5",
+        "compatdatapacks76-fabric-1.0.14.216.pom.sha1",
+        "compatdatapacks76-fabric-1.0.14.216.pom.sha256",
+        "compatdatapacks76-fabric-1.0.14.216.pom.sha512"
+    ]
+}
