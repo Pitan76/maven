@@ -8,7 +8,7 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.pitan76</groupId>
-  <artifactId>mcpitanlib-common-1.20.4</artifactId>
+  <artifactId>mcpitanlib-common</artifactId>
   <version>3.3.3</version>
   <dependencies>
     <dependency>
