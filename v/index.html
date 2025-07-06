@@ -91,11 +91,16 @@
                     }).join(" / ");
                 }
 
-                fetch("../" + dir)
-                    .then(response => response.text())
-                    .then(text => {
-                        const lines = text.split("\n");
-                        const table = document.createElement("table");
+                // ローカルリポジトリとGitHub Packagesの両方を取得
+                Promise.all([
+                    fetch("../" + dir).then(response => response.ok ? response.text() : null).catch(() => null),
+                    fetch("/?do=ghpkglist&user=PTOM76").then(response => response.ok ? response.json() : null).catch(() => null)
+                ]).then(([localData, githubData]) => {
+                    const table = document.createElement("table");
+                    
+                    // ローカルリポジトリのデータを処理
+                    if (localData && dir === "") {
+                        const lines = localData.split("\n");
                         for (const line of lines) {
                             const match = line.match(/<a href="([^"]+)">([^<]+)<\/a>\s+(\d{2}-\w{3}-\d{4} \d{2}:\d{2})/);
                             if (match) {
@@ -121,31 +126,165 @@
                                 table.appendChild(tr);
                             }
                         }
-                        document.getElementById("index").appendChild(table);
-                    });
+                    }
+                    
+                    // GitHub Packagesのデータを処理（トップレベルの場合のみ）
+                    if (githubData && !githubData.error && dir === "") {
+                        // セパレーターを追加
+                        if (localData) {
+                            const separatorTr = document.createElement("tr");
+                            const separatorTd = document.createElement("td");
+                            separatorTd.colSpan = 2;
+                            separatorTd.style.backgroundColor = "#e0e0e0";
+                            separatorTd.style.fontWeight = "bold";
+                            separatorTd.style.textAlign = "center";
+                            separatorTd.textContent = "GitHub Packages (PTOM76)";
+                            separatorTr.appendChild(separatorTd);
+                            table.appendChild(separatorTr);
+                        }
+                        
+                        githubData.packages.forEach(pkg => {
+                            const a = document.createElement("a");
+                            a.href = "#github-pkg/" + pkg.name + "/";
+                            a.textContent = pkg.name + " (GitHub)";
+                            a.style.color = "#0969da"; // GitHub blue
+                            
+                            const tr = document.createElement("tr");
+                            const td1 = document.createElement("td");
+                            td1.appendChild(a);
+                            tr.appendChild(td1);
+                            
+                            const td2 = document.createElement("td");
+                            td2.textContent = formatDate(pkg.updated_at);
+                            tr.appendChild(td2);
+                            
+                            table.appendChild(tr);
+                        });
+                    }
+                    
+                    // GitHub Packagesの特定パッケージを表示
+                    if (dir.startsWith("github-pkg/")) {
+                        const packageName = dir.replace("github-pkg/", "").replace("/", "");
+                        fetch(`/?do=ghpkginfo&user=PTOM76&package=${packageName}`)
+                            .then(response => response.json())
+                            .then(data => {
+                                if (data.versions) {
+                                    data.versions.forEach(version => {
+                                        const a = document.createElement("a");
+                                        a.href = version.package_url || "#";
+                                        a.textContent = version.name;
+                                        a.style.color = "#0969da";
+                                        
+                                        const tr = document.createElement("tr");
+                                        const td1 = document.createElement("td");
+                                        td1.appendChild(a);
+                                        tr.appendChild(td1);
+                                        
+                                        const td2 = document.createElement("td");
+                                        td2.textContent = formatDate(version.created_at);
+                                        tr.appendChild(td2);
+                                        
+                                        table.appendChild(tr);
+                                    });
+                                }
+                            });
+                    }
+                    
+                    document.getElementById("index").appendChild(table);
+                });
             }
 
             function viewRepo(dir) {
+                const gradle_kotlin = document.getElementById("gradle_kotlin");
+                const gradle_groovy = document.getElementById("gradle_groovy");
+                const maven = document.getElementById("maven");
+
+                gradle_kotlin.innerHTML = "";
+                gradle_groovy.innerHTML = "";
+                maven.innerHTML = "";
+
+                // GitHub Packagesの場合
+                if (dir.startsWith("github-pkg/")) {
+                    const packageName = dir.replace("github-pkg/", "").replace("/", "");
+                    
+                    if (packageName) {
+                        fetch(`/?do=ghpkginfo&user=PTOM76&package=${packageName}`)
+                            .then(response => response.json())
+                            .then(data => {
+                                if (data.package && data.latest_version) {
+                                    const latestVersion = data.latest_version.name;
+                                    // パッケージ名からgroupIdとartifactIdを推定
+                                    const parts = packageName.split('.');
+                                    const groupId = parts.slice(0, -1).join('.');
+                                    const artifactId = parts[parts.length - 1];
+                                    
+                                    gradle_kotlin.textContent = `implementation("${groupId}:${artifactId}:${latestVersion}")`;
+                                    gradle_groovy.textContent = `implementation "${groupId}:${artifactId}:${latestVersion}"`;
+                                    maven.textContent = `<dependency>\n    <groupId>${groupId}</groupId>\n    <artifactId>${artifactId}</artifactId>\n    <version>${latestVersion}</version>\n</dependency>`;
+                                } else {
+                                    gradle_kotlin.textContent = `implementation("${packageName}:VERSION")`;
+                                    gradle_groovy.textContent = `implementation "${packageName}:VERSION"`;
+                                    maven.textContent = `<dependency>\n    <groupId>${packageName}</groupId>\n    <artifactId>ARTIFACT_ID</artifactId>\n    <version>VERSION</version>\n</dependency>`;
+                                }
+                            })
+                            .catch(error => {
+                                gradle_kotlin.textContent = `implementation("${packageName}:VERSION")`;
+                                gradle_groovy.textContent = `implementation "${packageName}:VERSION"`;
+                                maven.textContent = `<dependency>\n    <groupId>${packageName}</groupId>\n    <artifactId>ARTIFACT_ID</artifactId>\n    <version>VERSION</version>\n</dependency>`;
+                            });
+                    } else {
+                        // GitHub Packages リポジトリ設定
+                        gradle_kotlin.textContent = "repositories {\n" +
+                            "    maven {\n" +
+                            "        name = \"GitHubPackages\"\n" +
+                            "        url = uri(\"https://maven.pkg.github.com/PTOM76/*\")\n" +
+                            "        credentials {\n" +
+                            "            username = project.findProperty(\"gpr.user\") ?: System.getenv(\"USERNAME\")\n" +
+                            "            password = project.findProperty(\"gpr.key\") ?: System.getenv(\"TOKEN\")\n" +
+                            "        }\n" +
+                            "    }\n" +
+                            "}";
+
+                        gradle_groovy.textContent = "repositories {\n" +
+                            "    maven {\n" +
+                            "        name \"GitHubPackages\"\n" +
+                            "        url \"https://maven.pkg.github.com/PTOM76/*\"\n" +
+                            "        credentials {\n" +
+                            "            username = project.findProperty(\"gpr.user\") ?: System.getenv(\"USERNAME\")\n" +
+                            "            password = project.findProperty(\"gpr.key\") ?: System.getenv(\"TOKEN\")\n" +
+                            "        }\n" +
+                            "    }\n" +
+                            "}";
+
+                        maven.textContent = "<repository>\n" +
+                            "    <id>github</id>\n" +
+                            "    <name>GitHub PTOM76 Apache Maven Packages</name>\n" +
+                            "    <url>https://maven.pkg.github.com/PTOM76/*</url>\n" +
+                            "</repository>\n\n" +
+                            "<!-- settings.xmlに認証情報を設定してください -->\n" +
+                            "<server>\n" +
+                            "    <id>github</id>\n" +
+                            "    <username>YOUR_GITHUB_USERNAME</username>\n" +
+                            "    <password>YOUR_GITHUB_TOKEN</password>\n" +
+                            "</server>";
+                    }
+                    return;
+                }
+
+                // ローカルリポジトリの場合
                 fetch("../" + dir)
                     .then(response => response.text())
                     .then(text => {
                         const lines = text.split("\n");
 
-                        const gradle_kotlin = document.getElementById("gradle_kotlin");
-                        gradle_kotlin.innerHTML = "";
-
-                        const gradle_groovy = document.getElementById("gradle_groovy");
-                        gradle_groovy.innerHTML = "";
-
-                        const maven = document.getElementById("maven");
-                        maven.innerHTML = "";
-
                         let pom = "";
                         for (const line of lines) {
                             if (line.includes("pom")) {
                                 const match = line.match(/<a href="\.\/([^"]+)">.+?\.pom<\/a>/);
-                                pom = match[1];
-                                break;
+                                if (match) {
+                                    pom = match[1];
+                                    break;
+                                }
                             }
                         }
                         if (pom) {
@@ -158,40 +297,95 @@
                                     const artifactId = doc.querySelector("artifactId").textContent;
                                     const version = doc.querySelector("version").textContent;
 
-                                    const dependencies = Array.from(doc.querySelectorAll("dependency")).map(dep => {
-                                        const groupId = dep.querySelector("groupId").textContent;
-                                        const artifactId = dep.querySelector("artifactId").textContent;
-                                        const version = dep.querySelector("version").textContent;
-                                        if (dep.querySelector("scope")?.textContent === "runtime") {
-                                            return "";
-                                        }
-                                        
-                                        return `${groupId}:${artifactId}:${version}"`;
-                                    });
-
                                     gradle_kotlin.textContent = `implementation("${groupId}:${artifactId}:${version}")`;
-                                    
                                     gradle_groovy.textContent = `implementation "${groupId}:${artifactId}:${version}"`;
-
                                     maven.textContent = `<dependency>\n    <groupId>${groupId}</groupId>\n    <artifactId>${artifactId}</artifactId>\n    <version>${version}</version>\n</dependency>`;
                                 });
                         } else {
-                            gradle_kotlin.textContent = "maven {\n" +
-                                "    name = \"PitanNET\"\n" +
-                                "    url = uri(\"https://maven.pitan76.net/\")\n" +
-                                "}\n";
+                            // 両方のリポジトリ設定を表示
+                            gradle_kotlin.textContent = "repositories {\n" +
+                                "    maven {\n" +
+                                "        name = \"PitanNET\"\n" +
+                                "        url = uri(\"https://maven.pitan76.net/\")\n" +
+                                "    }\n" +
+                                "    maven {\n" +
+                                "        name = \"GitHubPackages\"\n" +
+                                "        url = uri(\"https://maven.pkg.github.com/PTOM76/*\")\n" +
+                                "        credentials {\n" +
+                                "            username = project.findProperty(\"gpr.user\") ?: System.getenv(\"USERNAME\")\n" +
+                                "            password = project.findProperty(\"gpr.key\") ?: System.getenv(\"TOKEN\")\n" +
+                                "        }\n" +
+                                "    }\n" +
+                                "}";
 
-                            gradle_groovy.textContent = "maven {\n" +
-                                "    name \"PitanNET\"\n" +
-                                "    url \"https://maven.pitan76.net/\"\n" +
+                            gradle_groovy.textContent = "repositories {\n" +
+                                "    maven {\n" +
+                                "        name \"PitanNET\"\n" +
+                                "        url \"https://maven.pitan76.net/\"\n" +
+                                "    }\n" +
+                                "    maven {\n" +
+                                "        name \"GitHubPackages\"\n" +
+                                "        url \"https://maven.pkg.github.com/PTOM76/*\"\n" +
+                                "        credentials {\n" +
+                                "            username = project.findProperty(\"gpr.user\") ?: System.getenv(\"USERNAME\")\n" +
+                                "            password = project.findProperty(\"gpr.key\") ?: System.getenv(\"TOKEN\")\n" +
+                                "        }\n" +
+                                "    }\n" +
                                 "}";
                             
                             maven.textContent = "<repository>\n" +
                                 "    <id>pitan-net</id>\n" +
                                 "    <name>PitanNET</name>\n" +
                                 "    <url>https://maven.pitan76.net/</url>\n" +
-                                "</repository>";
+                                "</repository>\n" +
+                                "<repository>\n" +
+                                "    <id>github</id>\n" +
+                                "    <name>GitHub PTOM76 Apache Maven Packages</name>\n" +
+                                "    <url>https://maven.pkg.github.com/PTOM76/*</url>\n" +
+                                "</repository>\n\n" +
+                                "<!-- settings.xmlに認証情報を設定してください（GitHub Packages用） -->\n" +
+                                "<server>\n" +
+                                "    <id>github</id>\n" +
+                                "    <username>YOUR_GITHUB_USERNAME</username>\n" +
+                                "    <password>YOUR_GITHUB_TOKEN</password>\n" +
+                                "</server>";
                         }
+                    })
+                    .catch(error => {
+                        // ローカルリポジトリが利用できない場合、GitHub Packagesの設定のみ表示
+                        gradle_kotlin.textContent = "repositories {\n" +
+                            "    maven {\n" +
+                            "        name = \"GitHubPackages\"\n" +
+                            "        url = uri(\"https://maven.pkg.github.com/PTOM76/*\")\n" +
+                            "        credentials {\n" +
+                            "            username = project.findProperty(\"gpr.user\") ?: System.getenv(\"USERNAME\")\n" +
+                            "            password = project.findProperty(\"gpr.key\") ?: System.getenv(\"TOKEN\")\n" +
+                            "        }\n" +
+                            "    }\n" +
+                            "}";
+
+                        gradle_groovy.textContent = "repositories {\n" +
+                            "    maven {\n" +
+                            "        name \"GitHubPackages\"\n" +
+                            "        url \"https://maven.pkg.github.com/PTOM76/*\"\n" +
+                            "        credentials {\n" +
+                            "            username = project.findProperty(\"gpr.user\") ?: System.getenv(\"USERNAME\")\n" +
+                            "            password = project.findProperty(\"gpr.key\") ?: System.getenv(\"TOKEN\")\n" +
+                            "        }\n" +
+                            "    }\n" +
+                            "}";
+
+                        maven.textContent = "<repository>\n" +
+                            "    <id>github</id>\n" +
+                            "    <name>GitHub PTOM76 Apache Maven Packages</name>\n" +
+                            "    <url>https://maven.pkg.github.com/PTOM76/*</url>\n" +
+                            "</repository>\n\n" +
+                            "<!-- settings.xmlに認証情報を設定してください -->\n" +
+                            "<server>\n" +
+                            "    <id>github</id>\n" +
+                            "    <username>YOUR_GITHUB_USERNAME</username>\n" +
+                            "    <password>YOUR_GITHUB_TOKEN</password>\n" +
+                            "</server>";
                     });
             }
 
