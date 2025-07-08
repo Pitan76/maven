@@ -1,0 +1,426 @@
+{
+	"user": "PTOM76",
+	"packages": [
+		{
+			"name": "net.pitan76.pukibot",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.pukibot",
+			"html_url": "https://github.com/PTOM76/maven/packages/2444049",
+			"created_at": "2025-03-23T12:49:21Z",
+			"updated_at": "2025-03-23T12:49:21Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.20.4",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.20.4",
+			"html_url": "https://github.com/PTOM76/maven/packages/2444513",
+			"created_at": "2025-03-24T05:50:58Z",
+			"updated_at": "2025-03-24T05:50:58Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.storagebox-fabric",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.storagebox-fabric",
+			"html_url": "https://github.com/PTOM76/maven/packages/2452366",
+			"created_at": "2025-03-28T01:12:52Z",
+			"updated_at": "2025-03-28T01:12:52Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.21.6",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.21.6",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552441",
+			"created_at": "2025-06-22T02:41:43Z",
+			"updated_at": "2025-06-22T02:41:43Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.21.6",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.21.6",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552442",
+			"created_at": "2025-06-22T02:44:16Z",
+			"updated_at": "2025-06-22T02:44:16Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-neoforge-1.21.6",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-neoforge-1.21.6",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552443",
+			"created_at": "2025-06-22T02:45:01Z",
+			"updated_at": "2025-06-22T02:45:01Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.16.5",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.16.5",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552445",
+			"created_at": "2025-06-22T03:03:27Z",
+			"updated_at": "2025-06-22T03:03:27Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.16.5",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.16.5",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552446",
+			"created_at": "2025-06-22T03:03:53Z",
+			"updated_at": "2025-06-22T03:03:53Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-forge-1.16.5",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-forge-1.16.5",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552447",
+			"created_at": "2025-06-22T03:04:20Z",
+			"updated_at": "2025-06-22T03:04:20Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.18.2",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.18.2",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552448",
+			"created_at": "2025-06-22T03:06:18Z",
+			"updated_at": "2025-06-22T03:06:18Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.18.2",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.18.2",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552449",
+			"created_at": "2025-06-22T03:06:44Z",
+			"updated_at": "2025-06-22T03:06:44Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-forge-1.18.2",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-forge-1.18.2",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552450",
+			"created_at": "2025-06-22T03:07:10Z",
+			"updated_at": "2025-06-22T03:07:10Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.19.2",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.19.2",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552451",
+			"created_at": "2025-06-22T03:09:11Z",
+			"updated_at": "2025-06-22T03:09:11Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.19.2",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.19.2",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552452",
+			"created_at": "2025-06-22T03:09:37Z",
+			"updated_at": "2025-06-22T03:09:37Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-forge-1.19.2",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-forge-1.19.2",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552453",
+			"created_at": "2025-06-22T03:10:03Z",
+			"updated_at": "2025-06-22T03:10:03Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.20.1",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.20.1",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552454",
+			"created_at": "2025-06-22T03:12:04Z",
+			"updated_at": "2025-06-22T03:12:04Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.20.1",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.20.1",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552455",
+			"created_at": "2025-06-22T03:12:30Z",
+			"updated_at": "2025-06-22T03:12:30Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-forge-1.20.1",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-forge-1.20.1",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552456",
+			"created_at": "2025-06-22T03:12:56Z",
+			"updated_at": "2025-06-22T03:12:56Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.20.4",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.20.4",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552457",
+			"created_at": "2025-06-22T03:15:11Z",
+			"updated_at": "2025-06-22T03:15:11Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-forge-1.20.4",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-forge-1.20.4",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552458",
+			"created_at": "2025-06-22T03:16:04Z",
+			"updated_at": "2025-06-22T03:16:04Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-neoforge-1.20.4",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-neoforge-1.20.4",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552459",
+			"created_at": "2025-06-22T03:16:30Z",
+			"updated_at": "2025-06-22T03:16:30Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.21.1",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.21.1",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552460",
+			"created_at": "2025-06-22T03:19:10Z",
+			"updated_at": "2025-06-22T03:19:10Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.21.1",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.21.1",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552461",
+			"created_at": "2025-06-22T03:19:36Z",
+			"updated_at": "2025-06-22T03:19:36Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-neoforge-1.21.1",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-neoforge-1.21.1",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552462",
+			"created_at": "2025-06-22T03:20:02Z",
+			"updated_at": "2025-06-22T03:20:02Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.21.3",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.21.3",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552471",
+			"created_at": "2025-06-22T03:22:15Z",
+			"updated_at": "2025-06-22T03:22:15Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.21.3",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.21.3",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552472",
+			"created_at": "2025-06-22T03:22:40Z",
+			"updated_at": "2025-06-22T03:22:40Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-neoforge-1.21.3",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-neoforge-1.21.3",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552473",
+			"created_at": "2025-06-22T03:23:06Z",
+			"updated_at": "2025-06-22T03:23:06Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-common-1.21.4",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-common-1.21.4",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552475",
+			"created_at": "2025-06-22T03:25:18Z",
+			"updated_at": "2025-06-22T03:25:18Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-fabric-1.21.4",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-fabric-1.21.4",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552478",
+			"created_at": "2025-06-22T03:25:42Z",
+			"updated_at": "2025-06-22T03:25:42Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		},
+		{
+			"name": "net.pitan76.mcpitanlib-neoforge-1.21.4",
+			"package_type": "maven",
+			"visibility": "public",
+			"url": "https://api.github.com/users/PTOM76/packages/maven/net.pitan76.mcpitanlib-neoforge-1.21.4",
+			"html_url": "https://github.com/PTOM76/maven/packages/2552482",
+			"created_at": "2025-06-22T03:26:09Z",
+			"updated_at": "2025-06-22T03:26:09Z",
+			"repository": {
+				"name": "maven",
+				"full_name": "PTOM76/maven",
+				"html_url": "https://github.com/PTOM76/maven"
+			}
+		}
+	],
+	"total_count": 30
+}
