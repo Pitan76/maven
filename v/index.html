@@ -282,34 +282,19 @@
                                 "    maven {\n" +
                                 "        name = \"PitanNET\"\n" +
                                 "        url = uri(\"https://maven.pitan76.net/\")\n" +
-                                "    }\n" +
-                                "    maven {\n" +
-                                "        name = \"GitHubPackages\"\n" +
-                                "        url = uri(\"https://maven.pkg.github.com/PTOM76/*\")\n" +
-                                "    }\n" +
-                                "}";
+                                "    }\n";
 
                             gradle_groovy.textContent = "repositories {\n" +
                                 "    maven {\n" +
                                 "        name \"PitanNET\"\n" +
                                 "        url \"https://maven.pitan76.net/\"\n" +
-                                "    }\n" +
-                                "    maven {\n" +
-                                "        name \"GitHubPackages\"\n" +
-                                "        url \"https://maven.pkg.github.com/PTOM76/*\"\n" +
-                                "    }\n" +
-                                "}";
+                                "    }\n";
                             
                             maven.textContent = "<repository>\n" +
                                 "    <id>pitan-net</id>\n" +
                                 "    <name>PitanNET</name>\n" +
                                 "    <url>https://maven.pitan76.net/</url>\n" +
-                                "</repository>\n" +
-                                "<repository>\n" +
-                                "    <id>github</id>\n" +
-                                "    <name>GitHub PTOM76 Apache Maven Packages</name>\n" +
-                                "    <url>https://maven.pkg.github.com/PTOM76/*</url>\n" +
-                                "</repository>";
+                                "</repository>;
                         }
                     })
                     .catch(error => {
